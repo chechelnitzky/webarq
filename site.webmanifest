@@ -3,12 +3,14 @@
   "short_name": "JC Arquitecto",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
   ],
   "theme_color": "#18324A",
   "background_color": "#F7F4EF",
-  "display": "standalone"
+  "display": "standalone",
+  "start_url": "https://chechelnitzky.github.io/webarq/",
+  "scope": "https://chechelnitzky.github.io/webarq/"
 }

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://josephchechelnitzky.cl/sitemap.xml
+
+Sitemap: https://chechelnitzky.github.io/webarq/sitemap.xml
