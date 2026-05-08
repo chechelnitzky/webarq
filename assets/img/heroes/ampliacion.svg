@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Ampliación de casa">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7F4EF"/><stop offset="1" stop-color="#18324A" stop-opacity=".38"/></linearGradient>
+<filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#g)"/>
+<rect width="1600" height="1000" filter="url(#noise)" opacity=".45"/>
+<g opacity=".18" stroke="#111111" stroke-width="1">
+<path d="M80 0 V1000"/><path d="M160 0 V1000"/><path d="M240 0 V1000"/><path d="M320 0 V1000"/><path d="M400 0 V1000"/><path d="M480 0 V1000"/><path d="M560 0 V1000"/><path d="M640 0 V1000"/><path d="M720 0 V1000"/><path d="M800 0 V1000"/><path d="M880 0 V1000"/><path d="M960 0 V1000"/><path d="M1040 0 V1000"/><path d="M1120 0 V1000"/><path d="M1200 0 V1000"/><path d="M1280 0 V1000"/><path d="M1360 0 V1000"/><path d="M1440 0 V1000"/><path d="M1520 0 V1000"/><path d="M0 80 H1600"/><path d="M0 160 H1600"/><path d="M0 240 H1600"/><path d="M0 320 H1600"/><path d="M0 400 H1600"/><path d="M0 480 H1600"/><path d="M0 560 H1600"/><path d="M0 640 H1600"/><path d="M0 720 H1600"/><path d="M0 800 H1600"/><path d="M0 880 H1600"/><path d="M0 960 H1600"/></g>
+<g transform="translate(760 210)">
+<path d="M0 420 L0 170 L235 40 L530 170 L530 420 Z" fill="none" stroke="#A17C48" stroke-width="10" opacity=".9"/>
+<path d="M0 170 L530 170" stroke="#A17C48" stroke-width="10"/>
+<path d="M90 420 V245 H230 V420" fill="none" stroke="#111111" stroke-width="6" opacity=".55"/>
+<path d="M300 420 V245 H445 V420" fill="none" stroke="#111111" stroke-width="6" opacity=".55"/>
+<path d="M235 40 V170" stroke="#111111" stroke-width="6" opacity=".35"/>
+<circle cx="530" cy="170" r="14" fill="#A17C48"/>
+</g>
+<g transform="translate(96 710)">
+<text x="0" y="0" fill="#111111" font-family="Georgia,serif" font-size="64" font-weight="600">Ampliación de casa</text>
+<text x="0" y="58" fill="#111111" opacity=".68" font-family="Arial,sans-serif" font-size="28">Joseph Chechelnitzky Arquitecto</text>
+<path d="M0 95 H420" stroke="#A17C48" stroke-width="6"/>
+</g>
+</svg>

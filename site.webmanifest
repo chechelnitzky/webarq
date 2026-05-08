@@ -1,0 +1,14 @@
+{
+  "name": "Joseph Chechelnitzky Arquitecto",
+  "short_name": "JC Arquitecto",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#18324A",
+  "background_color": "#F7F4EF",
+  "display": "standalone"
+}
