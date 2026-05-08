@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://chechelnitzky.github.io/webarq/",
+  "whatsappNumber": "56976052356",
+  "whatsappDisplay": "+56 9 7605 2356",
+  "brandName": "Joseph Chechelnitzky Arquitecto",
+  "optionalEmail": "",
+  "openingHours": "Lun a Vie · 9:00 a 18:30",
+  "notes": "Para cambiar dominio después, actualiza BASE_URL en scripts/build.py o busca/reemplaza este baseUrl en HTML, sitemap, robots y manifest."
+}

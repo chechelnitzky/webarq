@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://chechelnitzky.github.io/webarq/sitemap.xml

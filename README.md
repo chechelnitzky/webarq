@@ -1,25 +1,18 @@
-# Joseph Chechelnitzky Arquitecto — Web estática para GitHub Pages
+# Joseph Chechelnitzky Arquitecto
 
-Web HTML/CSS/JS lista para subir a GitHub Pages.
+Web estática lista para GitHub Pages en `https://chechelnitzky.github.io/webarq/`.
 
-## Antes de publicar
+## Configuración importante
 
-1. Reemplazar `WHATSAPP_NUMBER` en `assets/js/main.js` por el número real, formato internacional sin + ni espacios.
-2. WhatsApp configurado: `+56 9 7605 2356`. El email queda por definir.
-3. Cambiar el dominio temporal `https://chechelnitzky.github.io/webarq/` por el dominio final con buscar/reemplazar en todos los archivos.
-4. Reemplazar las imágenes SVG placeholder en `assets/img/heroes/` por imágenes WebP reales manteniendo los nombres o actualizando los `src`.
-5. GTM fue removido por ahora. Instalar el contenedor correcto después, cuando corresponda.
+- WhatsApp: `+56 9 7605 2356` (`56976052356`)
+- URL temporal: `https://chechelnitzky.github.io/webarq/`
+- GTM/GA: no instalado por instrucción.
+- Email: omitido del front hasta definir uno real.
 
-## Publicación GitHub Pages
+## Cambiar dominio después
 
-Sube todo el contenido de esta carpeta a la rama `main` del repositorio. En GitHub: Settings → Pages → Deploy from branch → `main` / root.
+El sitio incluye `site.config.json` como referencia central. Para migrar a dominio definitivo, reemplazar `https://chechelnitzky.github.io/webarq/` por el nuevo dominio en HTML, `sitemap.xml`, `robots.txt`, `site.webmanifest` y `window.SITE_CONFIG`.
 
+## Publicación
 
-## Configuración temporal
-
-- Dominio temporal/base URL: `https://chechelnitzky.github.io/webarq/`
-- Para cambiarlo después: buscar y reemplazar esa URL en todos los archivos HTML, `sitemap.xml`, `robots.txt`, `site.webmanifest` y `assets/js/main.js`.
-- WhatsApp: `+56 9 7605 2356` / `56976052356`.
-- GTM: no instalado.
-
-- Email: por definir; el footer queda sin mailto temporal.
+Subir el contenido completo de esta carpeta al repositorio `webarq` y activar GitHub Pages desde la rama principal.

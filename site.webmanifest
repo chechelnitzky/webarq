@@ -1,16 +1,15 @@
 {
   "name": "Joseph Chechelnitzky Arquitecto",
-  "short_name": "JC Arquitecto",
+  "short_name": "JCA",
+  "start_url": "https://chechelnitzky.github.io/webarq/",
+  "display": "standalone",
+  "background_color": "#F7F4EF",
+  "theme_color": "#18324A",
   "icons": [
     {
       "src": "favicon.svg",
-      "sizes": "any",
+      "sizes": "64x64",
       "type": "image/svg+xml"
     }
-  ],
-  "theme_color": "#18324A",
-  "background_color": "#F7F4EF",
-  "display": "standalone",
-  "start_url": "https://chechelnitzky.github.io/webarq/",
-  "scope": "https://chechelnitzky.github.io/webarq/"
+  ]
 }
