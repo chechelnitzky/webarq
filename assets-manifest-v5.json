@@ -1,0 +1,520 @@
+[
+  {
+    "file": "/assets/img/cards/card-ampliacion-casa.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 75876,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-ampliacion.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 75876,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-casas.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 90896,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-diseno-casas.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 90896,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-local.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 88570,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-oficinas-locales.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 68950,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-oficinas.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 68950,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-permisos-municipales.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 62420,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-permisos.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 62420,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-recepcion.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 54138,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-regularizacion-vivienda.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 100584,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-regularizacion.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 100584,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cards/card-remodelaciones.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 50450,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-alef.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 142232,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-casa-alef.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 142232,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-casa-wiener.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 146126,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-local.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 142900,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-locales-san-pablo.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 142900,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-oficina.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 113568,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-oficinas-dentales-providencia.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 113568,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-remodelacion.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 83746,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-restaurante-detroit.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 142900,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-sanpablo.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 142900,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/cases/case-wiener.webp",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 146126,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-costos.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 58150,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-cuanto-cuesta-arquitecto.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 58150,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-locales.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 81344,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-m2.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 49204,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-oficinas.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 63512,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-permiso.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 58028,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-que-permiso-necesito.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 58028,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-regularizar-ampliacion.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 92280,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-regularizar.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 92280,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/guides/guide-valor-m2-construccion.webp",
+    "width": 1200,
+    "height": 800,
+    "bytes": 49204,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/ampliacion-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 60448,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/ampliacion.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 134874,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/casas-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 66894,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/casas.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 150274,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-ampliacion-casa-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 134874,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-ampliacion-casa-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 60448,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-diseno-casas-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 150274,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-diseno-casas-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 66894,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-habilitacion-local-comercial-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 156722,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-habilitacion-local-comercial-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 73806,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-home-arquitectura-santiago-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 150766,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-home-arquitectura-santiago-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 67528,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-permiso-obra-menor-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 127502,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-permiso-obra-menor-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 63578,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-permisos-municipales-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 122306,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-permisos-municipales-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 63494,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-recepcion-final-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 100458,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-recepcion-final-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 48916,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-regularizacion-vivienda-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 170424,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-regularizacion-vivienda-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 84802,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-remodelacion-oficinas-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 126614,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-remodelacion-oficinas-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 60254,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-remodelaciones-desktop.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 97472,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/hero-remodelaciones-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 45150,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/home-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 67528,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/home.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 150766,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/local-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 73806,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/local.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 156722,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/obra-menor-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 63578,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/obra-menor.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 127502,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/oficinas-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 60254,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/oficinas.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 126614,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/permisos-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 63494,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/permisos.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 122306,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/recepcion-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 48916,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/recepcion.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 100458,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/regularizacion-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 84802,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/regularizacion.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 170424,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/remodelaciones-mobile.webp",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 45150,
+    "source": "mockup-derived-v5"
+  },
+  {
+    "file": "/assets/img/heroes/remodelaciones.webp",
+    "width": 3000,
+    "height": 1700,
+    "bytes": 97472,
+    "source": "mockup-derived-v5"
+  }
+]
