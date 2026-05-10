@@ -8,6 +8,7 @@ Web estática lista para GitHub Pages en `https://chechelnitzky.github.io/webarq
 - URL temporal: `https://chechelnitzky.github.io/webarq/`
 - GTM/GA: no instalado por instrucción.
 - Email: omitido del front hasta definir uno real.
+- Precios públicos: removidos salvo referencia de diseño arquitectónico 1 a 2,5 UF/m².
 
 ## Cambiar dominio después
 
