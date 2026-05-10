@@ -1,9 +1,14 @@
 {
+  "brandName": "Joseph Chechelnitzky Arquitecto",
   "baseUrl": "https://chechelnitzky.github.io/webarq/",
   "whatsappNumber": "56976052356",
   "whatsappDisplay": "+56 9 7605 2356",
-  "brandName": "Joseph Chechelnitzky Arquitecto",
-  "optionalEmail": "",
+  "city": "Santiago, Chile",
+  "email": "",
+  "useEmail": false,
   "openingHours": "Lun a Vie · 9:00 a 18:30",
-  "notes": "Para cambiar dominio después, actualiza BASE_URL en scripts/build.py o busca/reemplaza este baseUrl en HTML, sitemap, robots y manifest."
+  "gtmEnabled": false,
+  "analyticsEnabled": false,
+  "clarityEnabled": false,
+  "notes": "Para cambiar dominio, WhatsApp, email u horarios, actualizar este archivo y assets/js/config.js. No hay GTM, GA ni Clarity instalados."
 }

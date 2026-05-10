@@ -1,0 +1,440 @@
+{
+  "heroes": [
+    {
+      "name": "hero-home-arquitectura-santiago",
+      "desktop": [
+        "assets/img/heroes/hero-home-arquitectura-santiago-desktop-1920.webp",
+        "assets/img/heroes/hero-home-arquitectura-santiago-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-home-arquitectura-santiago-mobile-1200.webp",
+        "assets/img/heroes/hero-home-arquitectura-santiago-mobile-1800.webp"
+      ],
+      "alt": "Casa contemporánea iluminada al atardecer para servicios de arquitectura, permisos y remodelaciones en Santiago.",
+      "objectPositionDesktop": "center center",
+      "objectPositionMobile": "center center",
+      "use": "Home / arquitectura, permisos y remodelaciones",
+      "cropNotes": "Composición editorial con espacio negativo para el H1."
+    },
+    {
+      "name": "hero-permisos-municipales",
+      "desktop": [
+        "assets/img/heroes/hero-permisos-municipales-desktop-1920.webp",
+        "assets/img/heroes/hero-permisos-municipales-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-permisos-municipales-mobile-1200.webp",
+        "assets/img/heroes/hero-permisos-municipales-mobile-1800.webp"
+      ],
+      "alt": "Planos arquitectónicos y documentación municipal para permisos de edificación y obra menor.",
+      "objectPositionDesktop": "center 48%",
+      "objectPositionMobile": "center center",
+      "use": "Permisos municipales / precios referenciales",
+      "cropNotes": "Still life técnico para reforzar consultoría y tramitación."
+    },
+    {
+      "name": "hero-permiso-obra-menor",
+      "desktop": [
+        "assets/img/heroes/hero-permiso-obra-menor-desktop-1920.webp",
+        "assets/img/heroes/hero-permiso-obra-menor-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-permiso-obra-menor-mobile-1200.webp",
+        "assets/img/heroes/hero-permiso-obra-menor-mobile-1800.webp"
+      ],
+      "alt": "Modelo arquitectónico y planos para permiso de obra menor.",
+      "objectPositionDesktop": "center 48%",
+      "objectPositionMobile": "center center",
+      "use": "Guía permiso de obra menor",
+      "cropNotes": "Imagen técnica sobria con zona segura central."
+    },
+    {
+      "name": "hero-regularizacion-vivienda",
+      "desktop": [
+        "assets/img/heroes/hero-regularizacion-vivienda-desktop-1920.webp",
+        "assets/img/heroes/hero-regularizacion-vivienda-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-regularizacion-vivienda-mobile-1200.webp",
+        "assets/img/heroes/hero-regularizacion-vivienda-mobile-1800.webp"
+      ],
+      "alt": "Vivienda existente con ampliación contemporánea para regularización de vivienda.",
+      "objectPositionDesktop": "center center",
+      "objectPositionMobile": "center center",
+      "use": "Regularización de vivienda",
+      "cropNotes": "Composición residencial para comunicar orden y factibilidad."
+    },
+    {
+      "name": "hero-recepcion-final",
+      "desktop": [
+        "assets/img/heroes/hero-recepcion-final-desktop-1920.webp",
+        "assets/img/heroes/hero-recepcion-final-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-recepcion-final-mobile-1200.webp",
+        "assets/img/heroes/hero-recepcion-final-mobile-1800.webp"
+      ],
+      "alt": "Expediente técnico y planos para recepción final municipal.",
+      "objectPositionDesktop": "center 48%",
+      "objectPositionMobile": "center center",
+      "use": "Recepción final",
+      "cropNotes": "Still life administrativo/técnico para cierre documental."
+    },
+    {
+      "name": "hero-ampliacion-casa",
+      "desktop": [
+        "assets/img/heroes/hero-ampliacion-casa-desktop-1920.webp",
+        "assets/img/heroes/hero-ampliacion-casa-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-ampliacion-casa-mobile-1200.webp",
+        "assets/img/heroes/hero-ampliacion-casa-mobile-1800.webp"
+      ],
+      "alt": "Ampliación de casa contemporánea integrada a vivienda existente.",
+      "objectPositionDesktop": "center center",
+      "objectPositionMobile": "center center",
+      "use": "Ampliación de casa",
+      "cropNotes": "Vivienda con volumen nuevo y luz cálida."
+    },
+    {
+      "name": "hero-remodelaciones",
+      "desktop": [
+        "assets/img/heroes/hero-remodelaciones-desktop-1920.webp",
+        "assets/img/heroes/hero-remodelaciones-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-remodelaciones-mobile-1200.webp",
+        "assets/img/heroes/hero-remodelaciones-mobile-1800.webp"
+      ],
+      "alt": "Interior remodelado de casa o departamento con arquitectura cálida y sobria.",
+      "objectPositionDesktop": "center center",
+      "objectPositionMobile": "center center",
+      "use": "Remodelaciones",
+      "cropNotes": "Interior editorial para remodelación integral."
+    },
+    {
+      "name": "hero-remodelacion-oficinas",
+      "desktop": [
+        "assets/img/heroes/hero-remodelacion-oficinas-desktop-1920.webp",
+        "assets/img/heroes/hero-remodelacion-oficinas-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-remodelacion-oficinas-mobile-1200.webp",
+        "assets/img/heroes/hero-remodelacion-oficinas-mobile-1800.webp"
+      ],
+      "alt": "Oficina profesional moderna con iluminación cálida para habilitación y remodelación de oficinas.",
+      "objectPositionDesktop": "center 55%",
+      "objectPositionMobile": "center center",
+      "use": "Remodelación / habilitación de oficinas",
+      "cropNotes": "Composición corporativa boutique para reforzar nicho oficinas."
+    },
+    {
+      "name": "hero-habilitacion-local-comercial",
+      "desktop": [
+        "assets/img/heroes/hero-habilitacion-local-comercial-desktop-1920.webp",
+        "assets/img/heroes/hero-habilitacion-local-comercial-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-habilitacion-local-comercial-mobile-1200.webp",
+        "assets/img/heroes/hero-habilitacion-local-comercial-mobile-1800.webp"
+      ],
+      "alt": "Local comercial boutique habilitado con iluminación cálida y materiales nobles.",
+      "objectPositionDesktop": "center 55%",
+      "objectPositionMobile": "center center",
+      "use": "Habilitación local comercial",
+      "cropNotes": "Imagen comercial orientada a apertura y operación."
+    },
+    {
+      "name": "hero-diseno-casas",
+      "desktop": [
+        "assets/img/heroes/hero-diseno-casas-desktop-1920.webp",
+        "assets/img/heroes/hero-diseno-casas-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-diseno-casas-mobile-1200.webp",
+        "assets/img/heroes/hero-diseno-casas-mobile-1800.webp"
+      ],
+      "alt": "Casa contemporánea a medida con luz cálida, vidrio, madera y hormigón.",
+      "objectPositionDesktop": "center center",
+      "objectPositionMobile": "center center",
+      "use": "Diseño de casas",
+      "cropNotes": "Residencia aspiracional para proyectos de casa."
+    },
+    {
+      "name": "hero-casos",
+      "desktop": [
+        "assets/img/heroes/hero-casos-desktop-1920.webp",
+        "assets/img/heroes/hero-casos-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-casos-mobile-1200.webp",
+        "assets/img/heroes/hero-casos-mobile-1800.webp"
+      ],
+      "alt": "Portafolio de arquitectura con vivienda contemporánea y atmósfera editorial premium.",
+      "objectPositionDesktop": "center center",
+      "objectPositionMobile": "center center",
+      "use": "Casos",
+      "cropNotes": "Hero de portafolio con overlay compatible con texto."
+    },
+    {
+      "name": "hero-guias",
+      "desktop": [
+        "assets/img/heroes/hero-guias-desktop-1920.webp",
+        "assets/img/heroes/hero-guias-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-guias-mobile-1200.webp",
+        "assets/img/heroes/hero-guias-mobile-1800.webp"
+      ],
+      "alt": "Guías de arquitectura con planos, documentos técnicos y materiales de consulta.",
+      "objectPositionDesktop": "center 48%",
+      "objectPositionMobile": "center center",
+      "use": "Guías",
+      "cropNotes": "Still life documental para artículos y recursos SEO."
+    },
+    {
+      "name": "hero-contacto",
+      "desktop": [
+        "assets/img/heroes/hero-contacto-desktop-1920.webp",
+        "assets/img/heroes/hero-contacto-desktop-3200.webp"
+      ],
+      "mobile": [
+        "assets/img/heroes/hero-contacto-mobile-1200.webp",
+        "assets/img/heroes/hero-contacto-mobile-1800.webp"
+      ],
+      "alt": "Mesa de trabajo de arquitectura para consulta profesional y diagnóstico inicial.",
+      "objectPositionDesktop": "center 48%",
+      "objectPositionMobile": "center center",
+      "use": "Contacto",
+      "cropNotes": "Imagen sobria de oficina técnica para consulta directa."
+    }
+  ],
+  "cards": [
+    {
+      "name": "card-ampliacion-casa",
+      "path": "assets/img/cards/card-ampliacion-casa.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-ampliacion",
+      "path": "assets/img/cards/card-ampliacion.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-casas",
+      "path": "assets/img/cards/card-casas.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-diseno-casas",
+      "path": "assets/img/cards/card-diseno-casas.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-local",
+      "path": "assets/img/cards/card-local.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-oficinas-locales",
+      "path": "assets/img/cards/card-oficinas-locales.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-oficinas",
+      "path": "assets/img/cards/card-oficinas.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-permisos-municipales",
+      "path": "assets/img/cards/card-permisos-municipales.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-permisos",
+      "path": "assets/img/cards/card-permisos.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-recepcion",
+      "path": "assets/img/cards/card-recepcion.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-regularizacion-vivienda",
+      "path": "assets/img/cards/card-regularizacion-vivienda.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-regularizacion",
+      "path": "assets/img/cards/card-regularizacion.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "card-remodelaciones",
+      "path": "assets/img/cards/card-remodelaciones.webp",
+      "use": "Card de servicio / navegación interna",
+      "notes": "WebP optimizado para cards 1200x800 aprox. según asset disponible."
+    }
+  ],
+  "cases": [
+    {
+      "name": "case-alef",
+      "path": "assets/img/cases/case-alef.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-casa-alef",
+      "path": "assets/img/cases/case-casa-alef.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-casa-lw",
+      "path": "assets/img/cases/case-casa-lw.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-casa-wiener",
+      "path": "assets/img/cases/case-casa-wiener.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-local",
+      "path": "assets/img/cases/case-local.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-locales-san-pablo",
+      "path": "assets/img/cases/case-locales-san-pablo.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-oficina",
+      "path": "assets/img/cases/case-oficina.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-oficinas-dentales-providencia",
+      "path": "assets/img/cases/case-oficinas-dentales-providencia.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-remodelacion",
+      "path": "assets/img/cases/case-remodelacion.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-restaurante-detroit",
+      "path": "assets/img/cases/case-restaurante-detroit.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-sanpablo",
+      "path": "assets/img/cases/case-sanpablo.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    },
+    {
+      "name": "case-wiener",
+      "path": "assets/img/cases/case-wiener.webp",
+      "use": "Imagen de caso / prueba comercial",
+      "notes": "WebP optimizado para caso 1800x1200 aprox. según asset disponible."
+    }
+  ],
+  "guides": [
+    {
+      "name": "guide-costos",
+      "path": "assets/img/guides/guide-costos.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-cuanto-cuesta-arquitecto",
+      "path": "assets/img/guides/guide-cuanto-cuesta-arquitecto.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-cuanto-cuesta-construir",
+      "path": "assets/img/guides/guide-cuanto-cuesta-construir.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-cuanto-cuesta-remodelar",
+      "path": "assets/img/guides/guide-cuanto-cuesta-remodelar.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-locales",
+      "path": "assets/img/guides/guide-locales.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-m2",
+      "path": "assets/img/guides/guide-m2.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-oficinas",
+      "path": "assets/img/guides/guide-oficinas.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-permiso",
+      "path": "assets/img/guides/guide-permiso.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-que-permiso-necesito",
+      "path": "assets/img/guides/guide-que-permiso-necesito.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-regularizar-ampliacion",
+      "path": "assets/img/guides/guide-regularizar-ampliacion.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-regularizar",
+      "path": "assets/img/guides/guide-regularizar.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    },
+    {
+      "name": "guide-valor-m2-construccion",
+      "path": "assets/img/guides/guide-valor-m2-construccion.webp",
+      "use": "Imagen de guía SEO / recurso editorial",
+      "notes": "WebP optimizado para guía 1200x800 aprox. según asset disponible."
+    }
+  ]
+}

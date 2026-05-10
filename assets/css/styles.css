@@ -4,3 +4,67 @@
 
 /* === V4 fixes: HD assets, stable crops, no pixelated related cards, no public prices === */
 :root{--img-h-service:168px;--img-h-related:158px;--img-h-case:178px;--img-h-guide:150px}.service-cards{grid-template-columns:repeat(auto-fit,minmax(178px,1fr));align-items:stretch}.service-card{display:flex;flex-direction:column;min-height:100%}.service-card img{height:var(--img-h-service);aspect-ratio:auto;object-fit:cover;object-position:center;background:#d8d2c8}.service-card div{display:flex;flex-direction:column;flex:1}.service-card a{margin-top:auto;padding-top:10px}.case-card img{height:var(--img-h-case);aspect-ratio:auto;object-fit:cover;object-position:center;background:#d8d2c8}.guide-card img{height:var(--img-h-guide);aspect-ratio:auto;object-fit:cover;object-position:center;background:#d8d2c8}.mini-grid{grid-template-columns:repeat(auto-fit,minmax(205px,1fr));align-items:stretch}.mini-card{display:flex;flex-direction:column;min-height:100%}.mini-card img{height:var(--img-h-related);aspect-ratio:auto;object-fit:cover;object-position:center;background:#d8d2c8}.diagnostic-card{grid-template-columns:150px 1fr 260px}.diag-action{border-left:1px solid var(--line);padding-left:26px;align-self:stretch;display:flex;flex-direction:column;justify-content:center;gap:18px}.diag-note{font-size:.95rem;line-height:1.45;color:var(--muted)}.diag-action .btn{width:100%}.commercial-focus{border-block:1px solid var(--line)}.focus-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.focus-card{display:grid;grid-template-columns:.88fr 1.12fr;background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:0 18px 60px rgba(17,17,17,.055);transition:all .45s var(--ease)}.focus-card:hover{transform:translateY(-4px);box-shadow:0 22px 70px rgba(17,17,17,.09)}.focus-card img{width:100%;height:100%;min-height:270px;object-fit:cover;object-position:center}.focus-card div{padding:34px}.focus-card h3{font-size:clamp(1.55rem,2.6vw,2.35rem)}.focus-card p:not(.meta){margin:12px 0 18px;font-size:1rem}.price-card strong{font-size:clamp(1.5rem,2.4vw,2.25rem);letter-spacing:-.035em}.featured-price strong{color:var(--blue)}.hero img{object-position:center}.hero:has(img[src*="permisos"]) img,.hero:has(img[src*="recepcion"]) img,.hero:has(img[src*="obra-menor"]) img{object-position:center 48%}.hero:has(img[src*="oficinas"]) img,.hero:has(img[src*="local"]) img{object-position:center 55%}.footer .footer-grid div:nth-child(2){min-width:0}.floating-wa{color:#083414;font-size:0}.floating-wa:before{content:'✆';font-size:.95rem;font-weight:800}.floating-wa span{font-size:.95rem}.floating-wa span:before{content:'WhatsApp'}@media(max-width:1180px){.diagnostic-card{grid-template-columns:1fr}.diag-action{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:20px}.focus-grid{grid-template-columns:1fr}.focus-card{grid-template-columns:1fr}.focus-card img{height:260px;min-height:0}.service-card img{height:190px}.mini-card img{height:170px}}@media(max-width:700px){:root{--img-h-service:210px;--img-h-related:190px;--img-h-case:205px;--img-h-guide:180px}.service-cards{grid-template-columns:1fr}.focus-card img{height:235px}.problem-grid{grid-template-columns:1fr 1fr}.problem-card{min-height:150px}.diag-action .btn{width:100%}.price-card{min-height:auto}.hero img{object-position:center}.hero-large{min-height:600px}.service-strip .strip-grid a:nth-child(6) span{font-size:.8rem}}
+
+/* Production override: premium circular WhatsApp floating action */
+.whatsapp-float {
+  position: fixed !important;
+  right: clamp(18px, 2vw, 28px) !important;
+  bottom: calc(18px + env(safe-area-inset-bottom)) !important;
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 999px !important;
+  background: #25D366 !important;
+  color: #fff !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  box-shadow: 0 16px 34px rgba(17,17,17,.22) !important;
+  z-index: 9999 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  overflow: hidden !important;
+  transition: transform 240ms cubic-bezier(.22,1,.36,1), box-shadow 240ms cubic-bezier(.22,1,.36,1), background 240ms cubic-bezier(.22,1,.36,1) !important;
+}
+.whatsapp-float:hover {
+  transform: translateY(-2px) scale(1.035) !important;
+  box-shadow: 0 20px 42px rgba(17,17,17,.28) !important;
+  background: #22c55e !important;
+}
+.whatsapp-float:focus-visible {
+  outline: 3px solid rgba(37,211,102,.35) !important;
+  outline-offset: 4px !important;
+}
+.whatsapp-float__icon {
+  width: 30px !important;
+  height: 30px !important;
+  display: block !important;
+  fill: currentColor !important;
+}
+.whatsapp-float span,
+.whatsapp-float::before,
+.whatsapp-float::after,
+.floating-wa,
+.mobile-wa {
+  content: none !important;
+  display: none !important;
+}
+@media (max-width: 767px) {
+  body { padding-bottom: 0 !important; }
+  .whatsapp-float {
+    width: 58px !important;
+    height: 58px !important;
+    right: 18px !important;
+    bottom: calc(18px + env(safe-area-inset-bottom)) !important;
+  }
+  .footer { padding-bottom: 56px !important; }
+}
+.focus-grid-four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.focus-grid-four .focus-card { grid-template-columns: 1fr; }
+.focus-grid-four .focus-card img { height: 210px; min-height: 0; }
+.focus-grid-four .focus-card div { padding: 24px; }
+.focus-grid-four .focus-card h3 { font-size: clamp(1.25rem, 1.8vw, 1.65rem); }
+@media (max-width: 1180px) { .focus-grid-four { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 700px) { .focus-grid-four { grid-template-columns: 1fr; } }
