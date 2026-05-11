@@ -46,7 +46,7 @@
   }), { threshold: .12 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
-  const form = document.querySelector('.form-card');
+  const form = document.querySelector('.form-card, .form-card-v2');
   if (form) {
     form.addEventListener('submit', e => {
       e.preventDefault();
