@@ -1,0 +1,41 @@
+# Fixes editoriales v5.2
+
+Se expandieron contenidos editoriales, CTAs y mensajes de WhatsApp con identificación de página.
+
+- /guias/que-es-recepcion-final/: 680 palabras aprox. CTA: Consultar por recepción final
+- /guias/como-regularizar-una-ampliacion/: 600 palabras aprox. CTA: Revisar si mi ampliación se puede regularizar
+- /servicios/regularizar-ampliacion/: 583 palabras aprox. CTA: Revisar si mi ampliación se puede regularizar
+- /guias/permiso-para-ampliar-casa/: 583 palabras aprox. CTA: Consultar qué permiso necesita mi ampliación
+- /servicios/ampliar-segundo-piso/: 575 palabras aprox. CTA: Revisar si puedo hacer segundo piso
+- /servicios/ampliacion-de-casa/: 508 palabras aprox. CTA: Evaluar mi ampliación de casa
+- /guias/planos-de-casa/: 566 palabras aprox. CTA: Diseñar una casa para mi terreno
+- /guias/casa-llave-en-mano/: 527 palabras aprox. CTA: Revisar mi proyecto antes de construir
+- /servicios/arquitecto-para-construir-casa/: 461 palabras aprox. CTA: Evaluar mi proyecto de casa
+- /servicios/remodelacion-de-casas/: 486 palabras aprox. CTA: Evaluar remodelación de casa
+- /servicios/remodelacion-de-departamentos/: 483 palabras aprox. CTA: Evaluar remodelación de departamento
+- /guias/cuanto-cuesta-remodelar-un-departamento/: 508 palabras aprox. CTA: Estimar mi remodelación de departamento
+- /guias/remodelacion-cocina/: 434 palabras aprox. CTA: Evaluar remodelación de cocina
+- /guias/remodelacion-bano/: 433 palabras aprox. CTA: Evaluar remodelación de baño
+- /guias/comprar-casa-para-remodelar/: 499 palabras aprox. CTA: Revisar casa antes de comprar
+- /guias/fachadas-de-casas-modernas/: 450 palabras aprox. CTA: Transformar referencia en proyecto
+- /guias/casas-modernas/: 411 palabras aprox. CTA: Diseñar mi casa moderna
+- /guias/casas-mediterraneas/: 403 palabras aprox. CTA: Conversar sobre mi casa mediterránea
+- /guias/casa-mediterranea-moderna/: 387 palabras aprox. CTA: Evaluar casa mediterránea moderna
+- /guias/casa-minimalista/: 394 palabras aprox. CTA: Diseñar una casa minimalista
+- /guias/cuanto-cuesta-un-arquitecto/: 346 palabras aprox. CTA: Cotizar mi caso con alcance claro
+- /guias/cuanto-cuesta-construir-una-casa/: 467 palabras aprox. CTA: Estimar mi proyecto de casa
+- /guias/cuanto-cuesta-remodelar-una-casa/: 432 palabras aprox. CTA: Evaluar remodelación de casa
+- /guias/valor-m2-construccion/: 347 palabras aprox. CTA: Estimar valor m² de mi proyecto
+- /servicios/remodelacion-de-oficinas/: 421 palabras aprox. CTA: Evaluar remodelación de oficina
+- /servicios/habilitacion-local-comercial/: 402 palabras aprox. CTA: Revisar si mi local sirve antes de invertir
+- /comunas/arquitecto-las-condes/: 441 palabras aprox. CTA: Revisar proyecto en Las Condes
+- /comunas/arquitecto-lo-barnechea/: 429 palabras aprox. CTA: Evaluar proyecto en Lo Barnechea
+- /comunas/arquitecto-vitacura/: 426 palabras aprox. CTA: Evaluar proyecto en Vitacura
+- /comunas/arquitecto-providencia/: 418 palabras aprox. CTA: Evaluar proyecto en Providencia
+- /comunas/arquitecto-nunoa/: 415 palabras aprox. CTA: Evaluar proyecto en Ñuñoa
+- /comunas/arquitecto-la-reina/: 418 palabras aprox. CTA: Evaluar proyecto en La Reina
+- /comunas/arquitecto-santiago-centro/: 416 palabras aprox. CTA: Evaluar proyecto en Santiago Centro
+- /comunas/arquitecto-chicureo/: 409 palabras aprox. CTA: Evaluar proyecto en Chicureo
+- /comunas/arquitecto-colina/: 411 palabras aprox. CTA: Evaluar proyecto en Colina
+- /comunas/arquitecto-huechuraba/: 410 palabras aprox. CTA: Evaluar proyecto en Huechuraba
+- /comunas/arquitecto-penalolen/: 408 palabras aprox. CTA: Evaluar proyecto en Peñalolén

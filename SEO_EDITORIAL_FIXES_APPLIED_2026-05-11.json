@@ -1,0 +1,187 @@
+[
+  {
+    "path": "/guias/que-es-recepcion-final/",
+    "words_article": 680,
+    "cta": "Consultar por recepción final"
+  },
+  {
+    "path": "/guias/como-regularizar-una-ampliacion/",
+    "words_article": 600,
+    "cta": "Revisar si mi ampliación se puede regularizar"
+  },
+  {
+    "path": "/servicios/regularizar-ampliacion/",
+    "words_article": 583,
+    "cta": "Revisar si mi ampliación se puede regularizar"
+  },
+  {
+    "path": "/guias/permiso-para-ampliar-casa/",
+    "words_article": 583,
+    "cta": "Consultar qué permiso necesita mi ampliación"
+  },
+  {
+    "path": "/servicios/ampliar-segundo-piso/",
+    "words_article": 575,
+    "cta": "Revisar si puedo hacer segundo piso"
+  },
+  {
+    "path": "/servicios/ampliacion-de-casa/",
+    "words_article": 508,
+    "cta": "Evaluar mi ampliación de casa"
+  },
+  {
+    "path": "/guias/planos-de-casa/",
+    "words_article": 566,
+    "cta": "Diseñar una casa para mi terreno"
+  },
+  {
+    "path": "/guias/casa-llave-en-mano/",
+    "words_article": 527,
+    "cta": "Revisar mi proyecto antes de construir"
+  },
+  {
+    "path": "/servicios/arquitecto-para-construir-casa/",
+    "words_article": 461,
+    "cta": "Evaluar mi proyecto de casa"
+  },
+  {
+    "path": "/servicios/remodelacion-de-casas/",
+    "words_article": 486,
+    "cta": "Evaluar remodelación de casa"
+  },
+  {
+    "path": "/servicios/remodelacion-de-departamentos/",
+    "words_article": 483,
+    "cta": "Evaluar remodelación de departamento"
+  },
+  {
+    "path": "/guias/cuanto-cuesta-remodelar-un-departamento/",
+    "words_article": 508,
+    "cta": "Estimar mi remodelación de departamento"
+  },
+  {
+    "path": "/guias/remodelacion-cocina/",
+    "words_article": 434,
+    "cta": "Evaluar remodelación de cocina"
+  },
+  {
+    "path": "/guias/remodelacion-bano/",
+    "words_article": 433,
+    "cta": "Evaluar remodelación de baño"
+  },
+  {
+    "path": "/guias/comprar-casa-para-remodelar/",
+    "words_article": 499,
+    "cta": "Revisar casa antes de comprar"
+  },
+  {
+    "path": "/guias/fachadas-de-casas-modernas/",
+    "words_article": 450,
+    "cta": "Transformar referencia en proyecto"
+  },
+  {
+    "path": "/guias/casas-modernas/",
+    "words_article": 411,
+    "cta": "Diseñar mi casa moderna"
+  },
+  {
+    "path": "/guias/casas-mediterraneas/",
+    "words_article": 403,
+    "cta": "Conversar sobre mi casa mediterránea"
+  },
+  {
+    "path": "/guias/casa-mediterranea-moderna/",
+    "words_article": 387,
+    "cta": "Evaluar casa mediterránea moderna"
+  },
+  {
+    "path": "/guias/casa-minimalista/",
+    "words_article": 394,
+    "cta": "Diseñar una casa minimalista"
+  },
+  {
+    "path": "/guias/cuanto-cuesta-un-arquitecto/",
+    "words_article": 346,
+    "cta": "Cotizar mi caso con alcance claro"
+  },
+  {
+    "path": "/guias/cuanto-cuesta-construir-una-casa/",
+    "words_article": 467,
+    "cta": "Estimar mi proyecto de casa"
+  },
+  {
+    "path": "/guias/cuanto-cuesta-remodelar-una-casa/",
+    "words_article": 432,
+    "cta": "Evaluar remodelación de casa"
+  },
+  {
+    "path": "/guias/valor-m2-construccion/",
+    "words_article": 347,
+    "cta": "Estimar valor m² de mi proyecto"
+  },
+  {
+    "path": "/servicios/remodelacion-de-oficinas/",
+    "words_article": 421,
+    "cta": "Evaluar remodelación de oficina"
+  },
+  {
+    "path": "/servicios/habilitacion-local-comercial/",
+    "words_article": 402,
+    "cta": "Revisar si mi local sirve antes de invertir"
+  },
+  {
+    "path": "/comunas/arquitecto-las-condes/",
+    "words_article": 441,
+    "cta": "Revisar proyecto en Las Condes"
+  },
+  {
+    "path": "/comunas/arquitecto-lo-barnechea/",
+    "words_article": 429,
+    "cta": "Evaluar proyecto en Lo Barnechea"
+  },
+  {
+    "path": "/comunas/arquitecto-vitacura/",
+    "words_article": 426,
+    "cta": "Evaluar proyecto en Vitacura"
+  },
+  {
+    "path": "/comunas/arquitecto-providencia/",
+    "words_article": 418,
+    "cta": "Evaluar proyecto en Providencia"
+  },
+  {
+    "path": "/comunas/arquitecto-nunoa/",
+    "words_article": 415,
+    "cta": "Evaluar proyecto en Ñuñoa"
+  },
+  {
+    "path": "/comunas/arquitecto-la-reina/",
+    "words_article": 418,
+    "cta": "Evaluar proyecto en La Reina"
+  },
+  {
+    "path": "/comunas/arquitecto-santiago-centro/",
+    "words_article": 416,
+    "cta": "Evaluar proyecto en Santiago Centro"
+  },
+  {
+    "path": "/comunas/arquitecto-chicureo/",
+    "words_article": 409,
+    "cta": "Evaluar proyecto en Chicureo"
+  },
+  {
+    "path": "/comunas/arquitecto-colina/",
+    "words_article": 411,
+    "cta": "Evaluar proyecto en Colina"
+  },
+  {
+    "path": "/comunas/arquitecto-huechuraba/",
+    "words_article": 410,
+    "cta": "Evaluar proyecto en Huechuraba"
+  },
+  {
+    "path": "/comunas/arquitecto-penalolen/",
+    "words_article": 408,
+    "cta": "Evaluar proyecto en Peñalolén"
+  }
+]
