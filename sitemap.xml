@@ -1,61 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://chechelnitzky.github.io/webarq/casos/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-chicureo/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-colina/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-huechuraba/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-la-reina/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-las-condes/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-lo-barnechea/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-nunoa/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-penalolen/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-providencia/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-santiago-centro/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-vitacura/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/comunas/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/contacto/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/casa-llave-en-mano/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/casa-mediterranea-moderna/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/casa-minimalista/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/casas-mediterraneas/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/casas-modernas/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/como-regularizar-una-ampliacion/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/comprar-casa-para-remodelar/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/cuanto-cuesta-construir-una-casa/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/cuanto-cuesta-remodelar-un-departamento/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/cuanto-cuesta-remodelar-una-casa/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/cuanto-cuesta-un-arquitecto/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/diseno-de-casas-modernas/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/fachadas-de-casas-modernas/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/honorarios-arquitecto-chile/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/permiso-de-edificacion/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/permiso-de-obra-menor/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/permiso-para-ampliar-casa/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/planos-de-casa/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/que-es-recepcion-final/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/regularizar-casa-construida/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/remodelacion-bano/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/remodelacion-cocina/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/remodelacion-integral/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/remodelar-casa-antigua/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/guias/valor-m2-construccion/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/politica-de-privacidad/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/precios/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/ampliacion-de-casa/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/ampliar-segundo-piso/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/arquitecto-para-construir-casa/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/diseno-de-casas/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/habilitacion-local-comercial/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/permisos-municipales/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/recepcion-final/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/regularizacion-de-vivienda/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/regularizar-ampliacion/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/remodelacion-de-casas/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/remodelacion-de-departamentos/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/remodelacion-de-oficinas/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/servicios/remodelaciones/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://chechelnitzky.github.io/webarq/terminos-y-condiciones/</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://chechelnitzky.github.io/webarq/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/casos/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-chicureo/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-colina/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-huechuraba/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-la-reina/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-las-condes/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-lo-barnechea/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-nunoa/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-penalolen/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-providencia/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-santiago-centro/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/comunas/arquitecto-vitacura/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/contacto/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/casa-llave-en-mano/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/casa-mediterranea-moderna/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/casa-minimalista/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/casas-mediterraneas/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/casas-modernas/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/como-regularizar-una-ampliacion/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/comprar-casa-para-remodelar/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/cuanto-cuesta-construir-una-casa/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/cuanto-cuesta-remodelar-un-departamento/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/cuanto-cuesta-remodelar-una-casa/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/cuanto-cuesta-un-arquitecto/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/fachadas-de-casas-modernas/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/permiso-de-obra-menor/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/permiso-para-ampliar-casa/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/planos-de-casa/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/que-es-recepcion-final/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/remodelacion-bano/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/remodelacion-cocina/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/guias/valor-m2-construccion/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/politica-de-privacidad/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/precios/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/ampliacion-de-casa/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/ampliar-segundo-piso/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/arquitecto-para-construir-casa/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/diseno-de-casas/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/habilitacion-local-comercial/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/permisos-municipales/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/recepcion-final/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/regularizacion-de-vivienda/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/regularizar-ampliacion/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/remodelacion-de-casas/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/remodelacion-de-departamentos/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/remodelacion-de-oficinas/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/servicios/remodelaciones/</loc><lastmod>2026-05-11</lastmod></url>
+<url><loc>https://chechelnitzky.github.io/webarq/terminos-y-condiciones/</loc><lastmod>2026-05-11</lastmod></url>
 </urlset>
