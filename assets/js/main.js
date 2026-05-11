@@ -20,6 +20,26 @@
     });
   });
 
+
+
+  // Mantiene abierto el mega menú por un instante al mover el mouse hacia el panel.
+  // Evita que desaparezca antes de alcanzar los links internos.
+  document.querySelectorAll('.mega-wrap').forEach(wrap => {
+    let closeTimer;
+    const open = () => {
+      window.clearTimeout(closeTimer);
+      wrap.classList.add('is-open');
+    };
+    const close = () => {
+      window.clearTimeout(closeTimer);
+      closeTimer = window.setTimeout(() => wrap.classList.remove('is-open'), 320);
+    };
+    wrap.addEventListener('mouseenter', open);
+    wrap.addEventListener('mouseleave', close);
+    wrap.addEventListener('focusin', open);
+    wrap.addEventListener('focusout', close);
+  });
+
   const btn = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.mobile-nav');
   if (btn && nav) {

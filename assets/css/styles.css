@@ -92,3 +92,9 @@
 /* === SEO cluster pages added 2026-05-11 === */
 .toc-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;margin:0 0 34px;display:grid;gap:10px;box-shadow:0 16px 44px rgba(17,17,17,.045)}
 .toc-card .eyebrow{margin:0 0 4px}.toc-card a{color:var(--blue);text-decoration:none;border-top:1px solid var(--line);padding-top:10px;font-weight:600}.toc-card a:first-of-type{border-top:0;padding-top:0}.seo-mini{min-height:180px}.seo-mini div{padding:26px}.seo-cluster-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.seo-cluster-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;text-decoration:none;color:inherit;transition:all .35s var(--ease)}.seo-cluster-card:hover{transform:translateY(-3px);box-shadow:0 18px 50px rgba(17,17,17,.08)}.seo-cluster-card h3{font-size:1.25rem;margin:8px 0}.seo-cluster-card p{font-size:.95rem;color:var(--muted);line-height:1.5}@media(max-width:980px){.seo-cluster-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.seo-cluster-grid{grid-template-columns:1fr}.toc-card{padding:18px}}
+
+
+/* Fix: mega menú más estable para poder mover el mouse hacia el panel */
+.mega-wrap::after{content:"";position:absolute;left:-48px;right:-48px;top:100%;height:34px;display:block;}
+.mega-wrap.is-open .mega-panel,.mega-wrap:hover .mega-panel,.mega-wrap:focus-within .mega-panel{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0);}
+.mega-panel{transition:opacity .24s var(--ease),transform .24s var(--ease),visibility .24s var(--ease);}
