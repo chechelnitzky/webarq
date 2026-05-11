@@ -23,7 +23,7 @@ Marca usada en el sitio:
 
 Se verificó que no queden apariciones de:
 
-- Joseph Chichilinsky
+- Joseph Chechelnitzky
 - Joseph Chechelnitzki
 - Arquicheche como marca principal
 - Estudio de Cabida como marca de esta web

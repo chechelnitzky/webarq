@@ -68,3 +68,15 @@
 .focus-grid-four .focus-card h3 { font-size: clamp(1.25rem, 1.8vw, 1.65rem); }
 @media (max-width: 1180px) { .focus-grid-four { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 700px) { .focus-grid-four { grid-template-columns: 1fr; } }
+
+/* === Editorial content upgrade: tables, lists, expert text === */
+.rich-article table,.article table{width:100%;border-collapse:collapse;margin:26px 0 10px;background:rgba(255,255,255,.55);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:table}
+.rich-article th,.rich-article td,.article th,.article td{padding:16px 18px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;color:var(--graphite)}
+.rich-article th,.article th{font-family:var(--mono);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);background:rgba(216,210,200,.22)}
+.rich-article tr:last-child td,.article tr:last-child td{border-bottom:0}
+.article .check-list,.rich-article .check-list{margin:18px 0 4px;padding:0;list-style:none;display:grid;gap:10px}
+.article .check-list li,.rich-article .check-list li{position:relative;padding-left:26px;color:var(--muted);font-size:1.03rem;line-height:1.55}
+.article .check-list li:before,.rich-article .check-list li:before{content:'→';position:absolute;left:0;top:0;color:var(--bronze);font-weight:700}
+.article p.lead,.rich-article p.lead{font-size:clamp(1.18rem,2vw,1.42rem);line-height:1.52;color:#342f2a;margin-top:0}
+.article h2 + table,.rich-article h2 + table{margin-top:20px}
+@media(max-width:700px){.rich-article table,.article table{display:block;overflow-x:auto;border-radius:14px}.rich-article th,.rich-article td,.article th,.article td{min-width:170px;padding:14px}.article .check-list li,.rich-article .check-list li{font-size:1rem}}
