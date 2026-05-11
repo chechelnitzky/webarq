@@ -3,12 +3,12 @@
     {
       "name": "hero-home-arquitectura-santiago",
       "desktop": [
-        "assets/img/heroes/hero-home-arquitectura-santiago-desktop-1920.webp",
-        "assets/img/heroes/hero-home-arquitectura-santiago-desktop-3200.webp"
+        "assets/img/heroes/hero-home-arquitectura-santiago-desktop-1920.jpg",
+        "assets/img/heroes/hero-home-arquitectura-santiago-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-home-arquitectura-santiago-mobile-1200.webp",
-        "assets/img/heroes/hero-home-arquitectura-santiago-mobile-1800.webp"
+        "assets/img/heroes/hero-home-arquitectura-santiago-mobile-1200.jpg",
+        "assets/img/heroes/hero-home-arquitectura-santiago-mobile-1800.jpg"
       ],
       "alt": "Casa contemporánea iluminada al atardecer para servicios de arquitectura, permisos y remodelaciones en Santiago.",
       "objectPositionDesktop": "center center",
@@ -19,12 +19,12 @@
     {
       "name": "hero-permisos-municipales",
       "desktop": [
-        "assets/img/heroes/hero-permisos-municipales-desktop-1920.webp",
-        "assets/img/heroes/hero-permisos-municipales-desktop-3200.webp"
+        "assets/img/heroes/hero-permisos-municipales-desktop-1920.jpg",
+        "assets/img/heroes/hero-permisos-municipales-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-permisos-municipales-mobile-1200.webp",
-        "assets/img/heroes/hero-permisos-municipales-mobile-1800.webp"
+        "assets/img/heroes/hero-permisos-municipales-mobile-1200.jpg",
+        "assets/img/heroes/hero-permisos-municipales-mobile-1800.jpg"
       ],
       "alt": "Planos arquitectónicos y documentación municipal para permisos de edificación y obra menor.",
       "objectPositionDesktop": "center 48%",
@@ -35,12 +35,12 @@
     {
       "name": "hero-permiso-obra-menor",
       "desktop": [
-        "assets/img/heroes/hero-permiso-obra-menor-desktop-1920.webp",
-        "assets/img/heroes/hero-permiso-obra-menor-desktop-3200.webp"
+        "assets/img/heroes/hero-permiso-obra-menor-desktop-1920.jpg",
+        "assets/img/heroes/hero-permiso-obra-menor-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-permiso-obra-menor-mobile-1200.webp",
-        "assets/img/heroes/hero-permiso-obra-menor-mobile-1800.webp"
+        "assets/img/heroes/hero-permiso-obra-menor-mobile-1200.jpg",
+        "assets/img/heroes/hero-permiso-obra-menor-mobile-1800.jpg"
       ],
       "alt": "Modelo arquitectónico y planos para permiso de obra menor.",
       "objectPositionDesktop": "center 48%",
@@ -51,12 +51,12 @@
     {
       "name": "hero-regularizacion-vivienda",
       "desktop": [
-        "assets/img/heroes/hero-regularizacion-vivienda-desktop-1920.webp",
-        "assets/img/heroes/hero-regularizacion-vivienda-desktop-3200.webp"
+        "assets/img/heroes/hero-regularizacion-vivienda-desktop-1920.jpg",
+        "assets/img/heroes/hero-regularizacion-vivienda-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-regularizacion-vivienda-mobile-1200.webp",
-        "assets/img/heroes/hero-regularizacion-vivienda-mobile-1800.webp"
+        "assets/img/heroes/hero-regularizacion-vivienda-mobile-1200.jpg",
+        "assets/img/heroes/hero-regularizacion-vivienda-mobile-1800.jpg"
       ],
       "alt": "Vivienda existente con ampliación contemporánea para regularización de vivienda.",
       "objectPositionDesktop": "center center",
@@ -67,12 +67,12 @@
     {
       "name": "hero-recepcion-final",
       "desktop": [
-        "assets/img/heroes/hero-recepcion-final-desktop-1920.webp",
-        "assets/img/heroes/hero-recepcion-final-desktop-3200.webp"
+        "assets/img/heroes/hero-recepcion-final-desktop-1920.jpg",
+        "assets/img/heroes/hero-recepcion-final-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-recepcion-final-mobile-1200.webp",
-        "assets/img/heroes/hero-recepcion-final-mobile-1800.webp"
+        "assets/img/heroes/hero-recepcion-final-mobile-1200.jpg",
+        "assets/img/heroes/hero-recepcion-final-mobile-1800.jpg"
       ],
       "alt": "Expediente técnico y planos para recepción final municipal.",
       "objectPositionDesktop": "center 48%",
@@ -83,12 +83,12 @@
     {
       "name": "hero-ampliacion-casa",
       "desktop": [
-        "assets/img/heroes/hero-ampliacion-casa-desktop-1920.webp",
-        "assets/img/heroes/hero-ampliacion-casa-desktop-3200.webp"
+        "assets/img/heroes/hero-ampliacion-casa-desktop-1920.jpg",
+        "assets/img/heroes/hero-ampliacion-casa-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-ampliacion-casa-mobile-1200.webp",
-        "assets/img/heroes/hero-ampliacion-casa-mobile-1800.webp"
+        "assets/img/heroes/hero-ampliacion-casa-mobile-1200.jpg",
+        "assets/img/heroes/hero-ampliacion-casa-mobile-1800.jpg"
       ],
       "alt": "Ampliación de casa contemporánea integrada a vivienda existente.",
       "objectPositionDesktop": "center center",
@@ -99,12 +99,12 @@
     {
       "name": "hero-remodelaciones",
       "desktop": [
-        "assets/img/heroes/hero-remodelaciones-desktop-1920.webp",
-        "assets/img/heroes/hero-remodelaciones-desktop-3200.webp"
+        "assets/img/heroes/hero-remodelaciones-desktop-1920.jpg",
+        "assets/img/heroes/hero-remodelaciones-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-remodelaciones-mobile-1200.webp",
-        "assets/img/heroes/hero-remodelaciones-mobile-1800.webp"
+        "assets/img/heroes/hero-remodelaciones-mobile-1200.jpg",
+        "assets/img/heroes/hero-remodelaciones-mobile-1800.jpg"
       ],
       "alt": "Interior remodelado de casa o departamento con arquitectura cálida y sobria.",
       "objectPositionDesktop": "center center",
@@ -115,12 +115,12 @@
     {
       "name": "hero-remodelacion-oficinas",
       "desktop": [
-        "assets/img/heroes/hero-remodelacion-oficinas-desktop-1920.webp",
-        "assets/img/heroes/hero-remodelacion-oficinas-desktop-3200.webp"
+        "assets/img/heroes/hero-remodelacion-oficinas-desktop-1920.jpg",
+        "assets/img/heroes/hero-remodelacion-oficinas-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-remodelacion-oficinas-mobile-1200.webp",
-        "assets/img/heroes/hero-remodelacion-oficinas-mobile-1800.webp"
+        "assets/img/heroes/hero-remodelacion-oficinas-mobile-1200.jpg",
+        "assets/img/heroes/hero-remodelacion-oficinas-mobile-1800.jpg"
       ],
       "alt": "Oficina profesional moderna con iluminación cálida para habilitación y remodelación de oficinas.",
       "objectPositionDesktop": "center 55%",
@@ -131,12 +131,12 @@
     {
       "name": "hero-habilitacion-local-comercial",
       "desktop": [
-        "assets/img/heroes/hero-habilitacion-local-comercial-desktop-1920.webp",
-        "assets/img/heroes/hero-habilitacion-local-comercial-desktop-3200.webp"
+        "assets/img/heroes/hero-habilitacion-local-comercial-desktop-1920.jpg",
+        "assets/img/heroes/hero-habilitacion-local-comercial-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-habilitacion-local-comercial-mobile-1200.webp",
-        "assets/img/heroes/hero-habilitacion-local-comercial-mobile-1800.webp"
+        "assets/img/heroes/hero-habilitacion-local-comercial-mobile-1200.jpg",
+        "assets/img/heroes/hero-habilitacion-local-comercial-mobile-1800.jpg"
       ],
       "alt": "Local comercial boutique habilitado con iluminación cálida y materiales nobles.",
       "objectPositionDesktop": "center 55%",
@@ -147,12 +147,12 @@
     {
       "name": "hero-diseno-casas",
       "desktop": [
-        "assets/img/heroes/hero-diseno-casas-desktop-1920.webp",
-        "assets/img/heroes/hero-diseno-casas-desktop-3200.webp"
+        "assets/img/heroes/hero-diseno-casas-desktop-1920.jpg",
+        "assets/img/heroes/hero-diseno-casas-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-diseno-casas-mobile-1200.webp",
-        "assets/img/heroes/hero-diseno-casas-mobile-1800.webp"
+        "assets/img/heroes/hero-diseno-casas-mobile-1200.jpg",
+        "assets/img/heroes/hero-diseno-casas-mobile-1800.jpg"
       ],
       "alt": "Casa contemporánea a medida con luz cálida, vidrio, madera y hormigón.",
       "objectPositionDesktop": "center center",
@@ -163,12 +163,12 @@
     {
       "name": "hero-casos",
       "desktop": [
-        "assets/img/heroes/hero-casos-desktop-1920.webp",
-        "assets/img/heroes/hero-casos-desktop-3200.webp"
+        "assets/img/heroes/hero-casos-desktop-1920.jpg",
+        "assets/img/heroes/hero-casos-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-casos-mobile-1200.webp",
-        "assets/img/heroes/hero-casos-mobile-1800.webp"
+        "assets/img/heroes/hero-casos-mobile-1200.jpg",
+        "assets/img/heroes/hero-casos-mobile-1800.jpg"
       ],
       "alt": "Portafolio de arquitectura con vivienda contemporánea y atmósfera editorial premium.",
       "objectPositionDesktop": "center center",
@@ -179,12 +179,12 @@
     {
       "name": "hero-guias",
       "desktop": [
-        "assets/img/heroes/hero-guias-desktop-1920.webp",
-        "assets/img/heroes/hero-guias-desktop-3200.webp"
+        "assets/img/heroes/hero-guias-desktop-1920.jpg",
+        "assets/img/heroes/hero-guias-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-guias-mobile-1200.webp",
-        "assets/img/heroes/hero-guias-mobile-1800.webp"
+        "assets/img/heroes/hero-guias-mobile-1200.jpg",
+        "assets/img/heroes/hero-guias-mobile-1800.jpg"
       ],
       "alt": "Guías de arquitectura con planos, documentos técnicos y materiales de consulta.",
       "objectPositionDesktop": "center 48%",
@@ -195,12 +195,12 @@
     {
       "name": "hero-contacto",
       "desktop": [
-        "assets/img/heroes/hero-contacto-desktop-1920.webp",
-        "assets/img/heroes/hero-contacto-desktop-3200.webp"
+        "assets/img/heroes/hero-contacto-desktop-1920.jpg",
+        "assets/img/heroes/hero-contacto-desktop-3200.jpg"
       ],
       "mobile": [
-        "assets/img/heroes/hero-contacto-mobile-1200.webp",
-        "assets/img/heroes/hero-contacto-mobile-1800.webp"
+        "assets/img/heroes/hero-contacto-mobile-1200.jpg",
+        "assets/img/heroes/hero-contacto-mobile-1800.jpg"
       ],
       "alt": "Mesa de trabajo de arquitectura para consulta profesional y diagnóstico inicial.",
       "objectPositionDesktop": "center 48%",

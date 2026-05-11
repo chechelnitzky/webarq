@@ -16,7 +16,7 @@ Se reemplazó la biblioteca visual anterior por una nueva biblioteca derivada di
 - Se mantuvo compatibilidad con la estructura actual del sitio.
 
 ## Assets reemplazados
-- `assets/img/heroes/*.webp`
+- `assets/img/heroes/*.jpg`
 - `assets/img/cards/*.webp`
 - `assets/img/cases/*.webp`
 - `assets/img/guides/*.webp`

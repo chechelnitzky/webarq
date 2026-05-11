@@ -1,0 +1,786 @@
+[
+  {
+    "file": "assets/img/heroes/hero-home-arquitectura-santiago-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (1).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-home-arquitectura-santiago-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (1).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-home-arquitectura-santiago-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (1).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-home-arquitectura-santiago-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (1).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-home-arquitectura-santiago-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (1).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-home-arquitectura-santiago-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (1).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/home.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (1).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/home-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (1).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permisos-municipales-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permisos-municipales-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permisos-municipales-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permisos-municipales-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permisos-municipales-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permisos-municipales-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/permisos.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/permisos-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-casos-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-casos-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-casos-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-casos-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-casos-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-casos-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_42 PM (3).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permiso-obra-menor-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (2).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permiso-obra-menor-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (2).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permiso-obra-menor-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (2).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permiso-obra-menor-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (2).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permiso-obra-menor-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (2).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-permiso-obra-menor-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (2).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/obra-menor.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (2).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/obra-menor-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_41 PM (2).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-regularizacion-vivienda-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-regularizacion-vivienda-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-regularizacion-vivienda-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-regularizacion-vivienda-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-regularizacion-vivienda-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-regularizacion-vivienda-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/regularizacion.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/regularizacion-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-guias-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-guias-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-guias-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-guias-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-guias-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-guias-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_43 PM (4).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-recepcion-final-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-recepcion-final-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-recepcion-final-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-recepcion-final-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-recepcion-final-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-recepcion-final-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/recepcion.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/recepcion-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-contacto-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-contacto-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-contacto-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-contacto-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-contacto-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-contacto-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (6).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-ampliacion-casa-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (5).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-ampliacion-casa-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (5).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-ampliacion-casa-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (5).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-ampliacion-casa-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (5).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-ampliacion-casa-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (5).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-ampliacion-casa-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (5).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/ampliacion.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (5).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/ampliacion-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_44 PM (5).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelaciones-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (8).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelaciones-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (8).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelaciones-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (8).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelaciones-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (8).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelaciones-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (8).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelaciones-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (8).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/remodelaciones.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (8).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/remodelaciones-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (8).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelacion-oficinas-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (9).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelacion-oficinas-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (9).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelacion-oficinas-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (9).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelacion-oficinas-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (9).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelacion-oficinas-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (9).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-remodelacion-oficinas-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (9).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/oficinas.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (9).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/oficinas-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (9).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-habilitacion-local-comercial-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (10).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-habilitacion-local-comercial-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (10).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-habilitacion-local-comercial-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (10).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-habilitacion-local-comercial-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (10).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-habilitacion-local-comercial-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (10).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-habilitacion-local-comercial-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (10).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/local.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (10).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/local-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_46 PM (10).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-diseno-casas-desktop-3200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (7).png",
+    "dimensions": [
+      3200,
+      1800
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-diseno-casas-desktop-1920.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (7).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-diseno-casas-mobile-1800.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (7).png",
+    "dimensions": [
+      1800,
+      2400
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-diseno-casas-mobile-1200.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (7).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-diseno-casas-desktop.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (7).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/hero-diseno-casas-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (7).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "file": "assets/img/heroes/casas.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (7).png",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "assets/img/heroes/casas-mobile.jpg",
+    "source": "ChatGPT Image May 10, 2026, 07_48_45 PM (7).png",
+    "dimensions": [
+      1200,
+      1600
+    ]
+  }
+]
