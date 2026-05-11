@@ -80,3 +80,5 @@
 .article p.lead,.rich-article p.lead{font-size:clamp(1.18rem,2vw,1.42rem);line-height:1.52;color:#342f2a;margin-top:0}
 .article h2 + table,.rich-article h2 + table{margin-top:20px}
 @media(max-width:700px){.rich-article table,.article table{display:block;overflow-x:auto;border-radius:14px}.rich-article th,.rich-article td,.article th,.article td{min-width:170px;padding:14px}.article .check-list li,.rich-article .check-list li{font-size:1rem}}
+
+.contact-tips{margin-top:24px}.contact-tips p{margin:0 0 10px;color:var(--graphite)}.contact-tips .check-list{margin-top:10px}.contact-tips .check-list li{font-size:.9rem}
