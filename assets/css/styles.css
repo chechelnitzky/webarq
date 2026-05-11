@@ -98,3 +98,50 @@
 .mega-wrap::after{content:"";position:absolute;left:-48px;right:-48px;top:100%;height:34px;display:block;}
 .mega-wrap.is-open .mega-panel,.mega-wrap:hover .mega-panel,.mega-wrap:focus-within .mega-panel{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0);}
 .mega-panel{transition:opacity .24s var(--ease),transform .24s var(--ease),visibility .24s var(--ease);}
+
+
+/* === v5.6 WhatsApp floating button hard fix ===
+   Keeps the floating button as a premium green circle, always shows the WhatsApp SVG,
+   and prevents old pseudo-icon fallbacks from overriding the real icon. */
+.whatsapp-float {
+  position: fixed !important;
+  right: clamp(18px, 2vw, 28px) !important;
+  bottom: calc(18px + env(safe-area-inset-bottom)) !important;
+  width: 58px !important;
+  height: 58px !important;
+  min-width: 58px !important;
+  min-height: 58px !important;
+  border-radius: 999px !important;
+  background: #25D366 !important;
+  color: #fff !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 16px 34px rgba(17,17,17,.22) !important;
+  z-index: 9999 !important;
+  overflow: hidden !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+.whatsapp-float::before,
+.whatsapp-float::after,
+.whatsapp-float span {
+  content: none !important;
+  display: none !important;
+}
+.whatsapp-float .whatsapp-float__icon {
+  display: block !important;
+  width: 31px !important;
+  height: 31px !important;
+  min-width: 31px !important;
+  min-height: 31px !important;
+  fill: #fff !important;
+  color: #fff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.whatsapp-float .whatsapp-float__icon path {
+  fill: #fff !important;
+}
