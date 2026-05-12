@@ -1,6 +1,6 @@
 window.SITE_CONFIG = {
   brandName: 'Joseph Chechelnitzky Arquitecto',
-  baseUrl: 'https://chechelnitzky.github.io/webarq/',
+  baseUrl: 'https://joseph.cl/',
   whatsappNumber: '56976052356',
   whatsappDisplay: '+56 9 7605 2356',
   city: 'Santiago, Chile',
