@@ -65,15 +65,27 @@
 
   <main>
     <section class="muse-hero" aria-labelledby="hero-title">
-      <picture class="muse-hero-media">
-        <source media="(max-width: 760px)" srcset="/assets/img/landing-muse/home-hero-mobile-1200.webp 1200w, /assets/img/landing-muse/home-hero-mobile-1800.webp 1800w" sizes="100vw" />
-        <img src="/assets/img/landing-muse/home-hero-desktop-1920.webp" srcset="/assets/img/landing-muse/home-hero-desktop-1920.webp 1920w, /assets/img/landing-muse/home-hero-desktop-3200.webp 3200w" sizes="100vw" alt="Casa contemporánea de alto estándar con luz cálida y arquitectura sobria" width="3200" height="1500" fetchpriority="high" decoding="async" />
-      </picture>
+      <div class="muse-hero-media muse-hero-dynamic-media" aria-hidden="true">
+        <picture class="muse-hero-slide is-active" data-label="Construir casa · terreno · permiso">
+          <source media="(max-width: 760px)" srcset="/assets/img/landing-muse/home-hero-mobile-1200.webp 1200w, /assets/img/landing-muse/home-hero-mobile-1800.webp 1800w" sizes="100vw" />
+          <img src="/assets/img/landing-muse/home-hero-desktop-1920.webp" srcset="/assets/img/landing-muse/home-hero-desktop-1920.webp 1920w, /assets/img/landing-muse/home-hero-desktop-3200.webp 3200w" sizes="100vw" alt="" width="3200" height="1500" fetchpriority="high" decoding="async" />
+        </picture>
+        <picture class="muse-hero-slide" data-label="Remodelar · ampliar · ordenar presupuesto">
+          <img src="/assets/img/landing-muse/problem-remodelar.webp" alt="" loading="eager" decoding="async" />
+        </picture>
+        <picture class="muse-hero-slide" data-label="Regularizar · permiso · recepción final">
+          <img src="/assets/img/landing-muse/problem-regularizar.webp" alt="" loading="eager" decoding="async" />
+        </picture>
+        <picture class="muse-hero-slide" data-label="Evaluar terreno · cabida · inversión">
+          <img src="/assets/img/landing-muse/problem-inversion.webp" alt="" loading="eager" decoding="async" />
+        </picture>
+      </div>
       <div class="muse-hero-shade" aria-hidden="true"></div>
       <div class="muse-hero-content">
         <p class="muse-eyebrow">ARQUITECTURA CON PROPÓSITO</p>
         <h1 id="hero-title">Veamos si tu proyecto<br><em>se puede hacer.</em></h1>
         <p class="muse-hero-lead">Antes de invertir tiempo y dinero, recibe una evaluación profesional de tu idea. En una llamada gratuita, analizaré tu caso y te diré cómo hacerlo posible.</p>
+        <p class="muse-hero-rotator" aria-live="polite"><span>Construir casa · terreno · permiso</span></p>
         <div class="muse-actions">
           <a class="muse-btn muse-btn-primary" href="#consulta" data-event="cta_consulta_inicial_click" data-page="home" data-section="hero">
             <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 2v3M17 2v3M4 9h16M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/></svg>
@@ -89,6 +101,14 @@
       </div>
     </section>
 
+    <section class="muse-signal-strip" aria-label="Indicadores de confianza">
+      <div class="muse-signal-inner">
+        <article class="muse-signal" data-count="30"><strong><span class="js-count" data-target="30">0</span> min</strong><p>para entender el punto de partida</p></article>
+        <article class="muse-signal" data-count="4"><strong><span class="js-count" data-target="4">0</span> rutas</strong><p>diseño · permiso · regularización · cabida</p></article>
+        <article class="muse-signal" data-count="1"><strong><span class="js-count" data-target="1">0</span> decisión</strong><p>próximo paso claro antes de invertir</p></article>
+      </div>
+    </section>
+
     <section class="muse-section muse-intro" id="resolver" aria-labelledby="resolver-title">
       <div class="muse-center-head">
         <p class="muse-eyebrow dark">PARA QUIÉN ES ESTO</p>
@@ -100,24 +120,28 @@
           <div class="muse-icon-bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9Z"/></svg></div>
           <h3>Quiero construir mi casa</h3>
           <p>Tienes un terreno o una idea y no sabes por dónde empezar.</p>
+          <span class="muse-card-cta">Ver si es viable →</span>
         </article>
         <article class="muse-problem-card" data-case="remodelar">
           <img src="/assets/img/landing-muse/problem-remodelar.webp" alt="Interior sobrio para remodelación de casa o departamento" loading="lazy" decoding="async" />
           <div class="muse-icon-bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-15.6 6.1M3 12A9 9 0 0 1 18.6 5.9M3 5v5h5M21 19v-5h-5"/></svg></div>
           <h3>Quiero remodelar</h3>
           <p>Quieres renovar tu espacio y necesitas saber qué es posible.</p>
+          <span class="muse-card-cta">Ordenar remodelación →</span>
         </article>
         <article class="muse-problem-card" data-case="regularizar">
           <img src="/assets/img/landing-muse/problem-regularizar.webp" alt="Vivienda para regularización, ampliación o permiso municipal" loading="lazy" decoding="async" />
           <div class="muse-icon-bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 4h8l4 4v12H4V4h4Zm8 0v4h4M8 13h8M8 17h6"/></svg></div>
           <h3>Necesito regularizar</h3>
           <p>Tienes una construcción o ampliación y necesitas ordenarla.</p>
+          <span class="muse-card-cta">Revisar regularización →</span>
         </article>
         <article class="muse-problem-card" data-case="inversion">
           <img src="/assets/img/landing-muse/problem-inversion.webp" alt="Proyecto inmobiliario o inversión a evaluar antes de comprar" loading="lazy" decoding="async" />
           <div class="muse-icon-bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
           <h3>Soy inversionista</h3>
           <p>Quieres evaluar la factibilidad de un terreno o proyecto.</p>
+          <span class="muse-card-cta">Evaluar inversión →</span>
         </article>
       </div>
     </section>
@@ -183,16 +207,23 @@
       </div>
     </section>
 
-    <section class="muse-authority" aria-labelledby="authority-title">
+    <section class="muse-authority muse-authority-dynamic" aria-labelledby="authority-title">
       <div class="muse-authority-copy">
         <p class="muse-eyebrow light">CRITERIO PROFESIONAL</p>
         <h2 id="authority-title">No todo problema se resuelve con más planos.</h2>
         <p>Un buen proyecto parte entendiendo qué se puede hacer, qué conviene hacer y qué riesgos existen antes de construir, regularizar o invertir.</p>
       </div>
-      <div class="muse-authority-list">
-        <div><b>Diseño</b><span>Soluciones pensadas para uso real, presupuesto y vida cotidiana.</span></div>
-        <div><b>Normativa</b><span>Lectura inicial de permisos, restricciones y ruta municipal probable.</span></div>
-        <div><b>Tramitación</b><span>Orden documental para avanzar sin improvisar ni perder tiempo.</span></div>
+      <div class="muse-authority-stage">
+        <div class="muse-authority-visual" aria-hidden="true">
+          <img class="is-active" data-auth-panel="diseno" src="/assets/img/landing-muse/problem-casa.webp" alt="" loading="lazy" decoding="async" />
+          <img data-auth-panel="normativa" src="/assets/img/landing-muse/form-plans.webp" alt="" loading="lazy" decoding="async" />
+          <img data-auth-panel="tramitacion" src="/assets/img/landing-muse/problem-regularizar.webp" alt="" loading="lazy" decoding="async" />
+        </div>
+        <div class="muse-authority-list" role="tablist" aria-label="Criterios de evaluación">
+          <button class="is-active" type="button" role="tab" data-auth="diseno" aria-selected="true"><b>Diseño</b><span>Soluciones pensadas para uso real, presupuesto y vida cotidiana.</span></button>
+          <button type="button" role="tab" data-auth="normativa" aria-selected="false"><b>Normativa</b><span>Lectura inicial de permisos, restricciones y ruta municipal probable.</span></button>
+          <button type="button" role="tab" data-auth="tramitacion" aria-selected="false"><b>Tramitación</b><span>Orden documental para avanzar sin improvisar ni perder tiempo.</span></button>
+        </div>
       </div>
     </section>
 
@@ -204,16 +235,22 @@
         </div>
         <a class="muse-link" href="/casos/">Ver todos los casos →</a>
       </div>
+      <div class="muse-case-filters" aria-label="Filtrar proyectos">
+        <button class="is-active" type="button" data-filter="all">Todos</button>
+        <button type="button" data-filter="casas">Casas</button>
+        <button type="button" data-filter="oficinas">Oficinas</button>
+        <button type="button" data-filter="locales">Locales</button>
+      </div>
       <div class="muse-case-grid">
-        <article class="muse-case-card muse-case-large case-alef">
+        <article class="muse-case-card muse-case-large case-alef" data-case-type="casas">
           <img src="/assets/img/landing-muse/case-alef.webp" alt="Casa Alef, vivienda de alto estándar con criterio arquitectónico" loading="lazy" decoding="async" />
           <div><p>CASA / TERRENO COMPLEJO</p><h3>Casa Alef</h3><span>Vivienda familiar donde el diseño debía resolver terreno, accesos, patio y presencia arquitectónica.</span></div>
         </article>
-        <article class="muse-case-card case-dental">
+        <article class="muse-case-card case-dental" data-case-type="oficinas">
           <img src="/assets/img/landing-muse/case-oficinas.webp" alt="Clínica dental contemporánea con sillón de atención, habilitación y permisos" loading="lazy" decoding="async" />
           <div><p>CLÍNICA DENTAL / HABILITACIÓN</p><h3>Oficinas dentales Providencia</h3><span>Ruta de permiso, habilitación y recepción para operación profesional.</span></div>
         </article>
-        <article class="muse-case-card case-local">
+        <article class="muse-case-card case-local" data-case-type="locales">
           <img src="/assets/img/landing-muse/case-sanpablo.webp" alt="Fachada de local comercial contemporáneo con iluminación cálida" loading="lazy" decoding="async" />
           <div><p>LOCAL COMERCIAL / VALIDACIÓN</p><h3>Locales San Pablo</h3><span>Reconstrucción y validación técnica para activar locales y operación comercial.</span></div>
         </article>

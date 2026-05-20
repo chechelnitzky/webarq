@@ -32,3 +32,79 @@
     });
   }
 })();
+
+(function(){
+  // Header state on scroll
+  var header=document.querySelector('.muse-header');
+  function setHeader(){ if(header){ header.classList.toggle('is-scrolled', window.scrollY>18); } }
+  setHeader(); window.addEventListener('scroll',setHeader,{passive:true});
+
+  // Hero editorial image rotator
+  var slides=[].slice.call(document.querySelectorAll('.muse-hero-slide'));
+  var label=document.querySelector('.muse-hero-rotator span');
+  if(slides.length>1){
+    var i=0;
+    setInterval(function(){
+      slides[i].classList.remove('is-active');
+      i=(i+1)%slides.length;
+      if(label){ label.classList.add('is-changing'); }
+      setTimeout(function(){
+        slides[i].classList.add('is-active');
+        if(label){ label.textContent=slides[i].dataset.label||''; label.classList.remove('is-changing'); }
+      },260);
+    },4800);
+  }
+
+  // Scroll reveals and process line activation
+  var revealItems=[].slice.call(document.querySelectorAll('.muse-center-head,.muse-split-head,.muse-problem-card,.muse-process,.muse-steps article,.muse-process-cta,.muse-authority-copy,.muse-authority-stage,.muse-case-card,.muse-route-grid a,.muse-consulta-media,.muse-form-wrap,.muse-faq-list details,.muse-final h2,.muse-final p,.muse-final .muse-actions'));
+  revealItems.forEach(function(el){ el.classList.add('reveal-on-scroll'); });
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){ entry.target.classList.add('in-view'); io.unobserve(entry.target); }
+      });
+    },{threshold:.16,rootMargin:'0px 0px -8% 0px'});
+    revealItems.forEach(function(el){ io.observe(el); });
+  }else{ revealItems.forEach(function(el){el.classList.add('in-view');}); }
+
+  // Honest counters
+  var counters=[].slice.call(document.querySelectorAll('.js-count'));
+  function animateCount(el){
+    var target=parseInt(el.dataset.target||'0',10); var start=0; var dur=850; var t0=null;
+    function step(ts){
+      if(!t0) t0=ts; var p=Math.min((ts-t0)/dur,1); var eased=1-Math.pow(1-p,3);
+      el.textContent=Math.round(start+(target-start)*eased);
+      if(p<1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  if(counters.length && 'IntersectionObserver' in window){
+    var co=new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){ if(entry.isIntersecting){ animateCount(entry.target); co.unobserve(entry.target); } });
+    },{threshold:.55});
+    counters.forEach(function(c){ co.observe(c); });
+  }else{ counters.forEach(animateCount); }
+
+  // Authority tabs / visual switch
+  var authButtons=[].slice.call(document.querySelectorAll('[data-auth]'));
+  var authImgs=[].slice.call(document.querySelectorAll('[data-auth-panel]'));
+  authButtons.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var key=btn.dataset.auth;
+      authButtons.forEach(function(b){ b.classList.toggle('is-active',b===btn); b.setAttribute('aria-selected',b===btn?'true':'false'); });
+      authImgs.forEach(function(img){ img.classList.toggle('is-active',img.dataset.authPanel===key); });
+    });
+  });
+
+  // Case filters, visual only: keep all cases visible but mute non-matches to preserve layout
+  var filterButtons=[].slice.call(document.querySelectorAll('.muse-case-filters button'));
+  var caseCards=[].slice.call(document.querySelectorAll('.muse-case-card[data-case-type]'));
+  filterButtons.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var f=btn.dataset.filter;
+      filterButtons.forEach(function(b){b.classList.toggle('is-active',b===btn);});
+      caseCards.forEach(function(card){ card.classList.toggle('is-filtered-out', f!=='all' && card.dataset.caseType!==f); });
+      window.dataLayer=window.dataLayer||[]; window.dataLayer.push({event:'case_filter_click',filter:f,page:'home'});
+    });
+  });
+})();
