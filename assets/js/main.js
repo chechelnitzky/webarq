@@ -66,7 +66,33 @@
   }), { threshold: .12 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
-  const form = document.querySelector('.form-card');
+
+
+  // Tracking liviano para CTAs de consulta gratuita
+  document.querySelectorAll('[data-event]').forEach(el => {
+    el.addEventListener('click', () => {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: el.dataset.event,
+        page: el.dataset.page || document.body.dataset.page || 'unknown',
+        service: el.dataset.service || 'general'
+      });
+    });
+  });
+
+  // Formulario integrado del home: abre WhatsApp con el caso prearmado para coordinar agenda
+  document.querySelectorAll('form[data-form="consulta-gratis"]').forEach(f => {
+    f.addEventListener('submit', e => {
+      e.preventDefault();
+      const fd = new FormData(f);
+      const msg = `Hola Joseph, quiero agendar una consulta inicial gratuita.\n\nNombre: ${fd.get('nombre') || ''}\nEmail: ${fd.get('email') || ''}\nTeléfono: ${fd.get('telefono') || ''}\nComuna: ${fd.get('comuna') || ''}\nTipo de caso: ${fd.get('tipo') || ''}\nPropiedad/local/terreno: ${fd.get('propiedad') || ''}\nQué quiero lograr: ${fd.get('mensaje') || ''}\nLink documentos: ${fd.get('link') || ''}`;
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'form_llamada_submit', page: 'home', service: fd.get('tipo') || 'general' });
+      window.open(waUrl(msg), '_blank', 'noopener');
+    });
+  });
+
+  const form = document.querySelector('.form-card:not([data-form])');
   if (form) {
     form.addEventListener('submit', e => {
       e.preventDefault();
