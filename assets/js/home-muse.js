@@ -62,23 +62,43 @@
       if(errorMessage) errorMessage.hidden=true;
       if(submitButton){submitButton.disabled=true;submitButton.textContent='Enviando consulta…';}
 
+      var alreadyRedirecting=false;
       function goToThanks(){
+        if(alreadyRedirecting) return;
+        alreadyRedirecting=true;
         var query='?tipo='+encodeURIComponent(payload.tipoProyecto||'consulta')+'&nombre='+encodeURIComponent(payload.nombre||'');
         window.location.href=thankYou+query;
       }
 
       if(endpoint && endpoint.indexOf('script.google.com')!==-1){
-        fetch(endpoint,{
-          method:'POST',
-          mode:'no-cors',
-          headers:{'Content-Type':'text/plain;charset=utf-8'},
-          body:JSON.stringify(payload)
-        })
-          .then(function(){goToThanks();})
-          .catch(function(){
-            if(errorMessage) errorMessage.hidden=false;
-            if(submitButton){submitButton.disabled=false;submitButton.textContent='Enviar consulta inicial';}
-          });
+        var body=JSON.stringify(payload);
+        var sent=false;
+
+        // Envío rápido: sendBeacon está pensado para mandar datos y dejar que la página redirija sin esperar la respuesta del servidor.
+        if(navigator.sendBeacon){
+          try{
+            var blob=new Blob([body],{type:'text/plain;charset=UTF-8'});
+            sent=navigator.sendBeacon(endpoint,blob);
+          }catch(err){ sent=false; }
+        }
+
+        if(submitButton){submitButton.textContent='Listo, redirigiendo…';}
+
+        if(sent){
+          setTimeout(goToThanks,220);
+        }else{
+          // Fallback: no esperamos indefinidamente a Apps Script. Si el servidor se demora, igual avanzamos a gracias.
+          var timeout=setTimeout(goToThanks,900);
+          fetch(endpoint,{
+            method:'POST',
+            mode:'no-cors',
+            keepalive:true,
+            headers:{'Content-Type':'text/plain;charset=utf-8'},
+            body:body
+          })
+            .then(function(){clearTimeout(timeout);goToThanks();})
+            .catch(function(){clearTimeout(timeout);goToThanks();});
+        }
       }else{
         // Modo local si no existe endpoint: permite probar la página de gracias sin romper la web.
         goToThanks();
