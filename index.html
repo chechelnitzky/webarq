@@ -277,7 +277,10 @@
         <p class="muse-eyebrow dark">CONSULTA INICIAL</p>
         <h2 id="consulta-title">Cuéntame tu proyecto</h2>
         <p>No necesitas tener todo resuelto. Con esta información puedo entender el punto de partida y orientarte sobre el siguiente paso.</p>
-        <form class="muse-form" id="consultaForm" action="#" method="post">
+        <form class="muse-form" id="consultaForm" action="#" method="post" data-form="google-sheets-lead">
+          <input type="hidden" name="source" value="home-consulta-inicial">
+          <input type="hidden" name="page_url" value="https://joseph.cl/">
+          <input type="hidden" name="lead_status" value="nuevo">
           <label>Nombre<input name="nombre" type="text" autocomplete="name" required></label>
           <label>Email<input name="email" type="email" autocomplete="email" required></label>
           <label>WhatsApp<input name="telefono" type="tel" autocomplete="tel" required></label>
@@ -293,8 +296,8 @@
           <label class="full">Comuna del proyecto<input name="comuna" type="text" placeholder="Ej: Las Condes, Lo Barnechea, Providencia"></label>
           <label class="full">Cuéntame brevemente qué quieres hacer<textarea name="mensaje" rows="4" required></textarea></label>
           <button class="muse-btn muse-btn-dark full" type="submit" data-event="form_consulta_submit" data-page="home">Enviar consulta inicial</button>
-          <p class="muse-form-note">Placeholder backend: por ahora guarda un borrador local. Luego se conecta a Google Sheets, Formspree, Tally o calendario.</p>
-          <p class="muse-form-success" hidden>Gracias. Tu consulta quedó registrada en esta versión de prueba. El siguiente paso será conectar el backend de recepción.</p>
+          <p class="muse-form-note">Al enviar, tu caso queda registrado y avanzas a una página de confirmación con el siguiente paso.</p>
+          <p class="muse-form-error" hidden>No pudimos registrar la consulta en este momento. Escríbeme por WhatsApp y revisamos tu caso directo.</p>
         </form>
       </div>
     </section>
@@ -335,6 +338,7 @@
     </nav>
   </footer>
 
+  <script src="/assets/js/config.js"></script>
   <script src="/assets/js/home-muse.js"></script>
 </body>
 </html>

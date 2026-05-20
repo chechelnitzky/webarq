@@ -20,15 +20,69 @@
   });
   var form=document.getElementById('consultaForm');
   if(form){
+    var submitButton=form.querySelector('button[type="submit"]');
+    var errorMessage=form.querySelector('.muse-form-error');
     form.addEventListener('submit',function(e){
       e.preventDefault();
+      if(!form.checkValidity()){
+        form.reportValidity();
+        return;
+      }
+      var cfg=window.SITE_CONFIG||{};
+      var endpoint=(cfg.googleSheetsWebAppUrl||'').trim();
+      var thankYou=cfg.thankYouUrl||'/gracias/';
+      var fd=new FormData(form);
+      var params=new URLSearchParams(window.location.search);
       var data={};
-      new FormData(form).forEach(function(v,k){data[k]=v});
-      try{localStorage.setItem('joseph_consulta_draft',JSON.stringify({createdAt:new Date().toISOString(),data:data}));}catch(err){}
+      fd.forEach(function(v,k){data[k]=v});
+
+      // Payload compatible con el Google Apps Script de leads.
+      // Importante: se envía como text/plain JSON para evitar problemas CORS con Apps Script.
+      var payload={
+        nombre:data.nombre||'',
+        email:data.email||'',
+        telefono:data.telefono||'',
+        comuna:data.comuna||'',
+        tipoProyecto:data.tipo||'',
+        mensaje:data.mensaje||'',
+        pageUrl:window.location.href,
+        utmSource:params.get('utm_source')||'',
+        utmMedium:params.get('utm_medium')||'',
+        utmCampaign:params.get('utm_campaign')||'',
+        userAgent:navigator.userAgent||'',
+        referrer:document.referrer||'',
+        source:data.source||'home-consulta-inicial',
+        leadStatus:data.lead_status||'nuevo',
+        submittedAt:new Date().toISOString()
+      };
+
+      try{localStorage.setItem('joseph_consulta_ultimo_envio',JSON.stringify({createdAt:new Date().toISOString(),data:payload}));}catch(err){}
       window.dataLayer=window.dataLayer||[];
-      window.dataLayer.push({event:'form_consulta_submit',page:'home',tipo:data.tipo||''});
-      var success=form.querySelector('.muse-form-success');
-      if(success){success.hidden=false;success.scrollIntoView({behavior:'smooth',block:'nearest'});}
+      window.dataLayer.push({event:'form_consulta_submit',page:'home',section:'consulta',tipo:payload.tipoProyecto||''});
+      if(errorMessage) errorMessage.hidden=true;
+      if(submitButton){submitButton.disabled=true;submitButton.textContent='Enviando consulta…';}
+
+      function goToThanks(){
+        var query='?tipo='+encodeURIComponent(payload.tipoProyecto||'consulta')+'&nombre='+encodeURIComponent(payload.nombre||'');
+        window.location.href=thankYou+query;
+      }
+
+      if(endpoint && endpoint.indexOf('script.google.com')!==-1){
+        fetch(endpoint,{
+          method:'POST',
+          mode:'no-cors',
+          headers:{'Content-Type':'text/plain;charset=utf-8'},
+          body:JSON.stringify(payload)
+        })
+          .then(function(){goToThanks();})
+          .catch(function(){
+            if(errorMessage) errorMessage.hidden=false;
+            if(submitButton){submitButton.disabled=false;submitButton.textContent='Enviar consulta inicial';}
+          });
+      }else{
+        // Modo local si no existe endpoint: permite probar la página de gracias sin romper la web.
+        goToThanks();
+      }
     });
   }
 })();

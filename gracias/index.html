@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KKWMD7WR');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consulta recibida | Joseph Chechelnitzky Arquitecto</title>
+  <meta name="description" content="Gracias por enviar tu consulta inicial. Ya diste el primer paso para ordenar tu proyecto de arquitectura, permiso, regularización o remodelación." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://joseph.cl/gracias/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/assets/css/home-muse.css" />
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKWMD7WR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header class="muse-header" id="inicio">
+    <a class="muse-brand" href="/" aria-label="Joseph Chechelnitzky Arquitecto">
+      <span>JOSEPH</span>
+      <small>ARQUITECTURA</small>
+    </a>
+    <nav class="muse-nav" aria-label="Navegación principal">
+      <a href="/">Inicio</a>
+      <a href="/#proceso">Cómo funciona</a>
+      <a href="/#casos">Proyectos</a>
+      <a href="/#consulta">Consulta</a>
+      <a class="nav-pill" href="/#consulta" data-event="cta_consulta_inicial_click" data-page="gracias" data-section="header">Nueva consulta</a>
+    </nav>
+    <button class="muse-menu" type="button" aria-expanded="false" aria-controls="mobileNav">Menú</button>
+  </header>
+  <nav class="muse-mobile-nav" id="mobileNav" aria-label="Navegación móvil">
+    <a href="/">Inicio</a>
+    <a href="/#resolver">Para quién es</a>
+    <a href="/#proceso">Cómo funciona</a>
+    <a href="/#casos">Proyectos</a>
+    <a href="/#consulta">Consulta inicial</a>
+  </nav>
+
+  <main class="thanks-page">
+    <section class="thanks-card" aria-labelledby="thanks-title">
+      <p class="muse-eyebrow dark">CONSULTA RECIBIDA</p>
+      <h1 id="thanks-title">Ya diste el primer paso.</h1>
+      <p id="thanks-copy">Recibí tu consulta inicial. Ahora revisaré el caso para entender qué estás tratando de resolver y cuál es el camino más lógico antes de que gastes tiempo o plata de más.</p>
+
+      <div class="thanks-next" aria-label="Próximos pasos">
+        <div><span>01</span><b>Reviso tu solicitud</b><small>Objetivo, comuna, tipo de caso y antecedentes que enviaste.</small></div>
+        <div><span>02</span><b>Ordeno la ruta</b><small>Veo si conviene diseño, permiso, regularización, cabida, recepción final o una etapa previa.</small></div>
+        <div><span>03</span><b>Te contacto</b><small>Si hay encaje, coordinamos el siguiente paso con alcance y criterio claro.</small></div>
+      </div>
+
+      <div class="muse-actions thanks-actions">
+        <a class="muse-btn muse-btn-dark" href="https://wa.me/56976052356?text=Hola%20Joseph%2C%20reci%C3%A9n%20envi%C3%A9%20la%20consulta%20inicial%20desde%20la%20web.%20Quedo%20atento%20para%20revisar%20el%20siguiente%20paso." target="_blank" rel="noopener" data-event="whatsapp_click" data-page="gracias" data-section="thanks">Enviar WhatsApp directo</a>
+        <a class="muse-btn muse-btn-text" href="/" data-event="back_home_click" data-page="gracias">Volver al inicio →</a>
+      </div>
+      <p class="thanks-note">Si tienes planos, fotos, CIP, observaciones municipales o un link de Drive, puedes enviarlos por WhatsApp para acelerar la revisión.</p>
+    </section>
+  </main>
+
+  <footer class="muse-footer">
+    <div>
+      <strong>Joseph Chechelnitzky Arquitecto</strong>
+      <span>Arquitectura, permisos y remodelaciones en Santiago.</span>
+    </div>
+    <nav aria-label="Footer">
+      <a href="/servicios/">Servicios</a>
+      <a href="/casos/">Casos</a>
+      <a href="/guias/">Guías</a>
+      <a href="/contacto/">Contacto</a>
+    </nav>
+  </footer>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'lead_thank_you_view',page:'gracias'});
+    (function(){
+      var params=new URLSearchParams(window.location.search);
+      var nombre=(params.get('nombre')||'').trim();
+      var tipo=(params.get('tipo')||'').trim();
+      var copy=document.getElementById('thanks-copy');
+      if(copy && (nombre || tipo)){
+        var intro=nombre ? nombre + ', recibí tu consulta inicial' : 'Recibí tu consulta inicial';
+        var sobre=tipo ? ' sobre: ' + tipo + '.' : '.';
+        copy.textContent=intro + sobre + ' Ahora revisaré el caso para entender qué estás tratando de resolver y cuál es el camino más lógico antes de que gastes tiempo o plata de más.';
+      }
+    })();
+  </script>
+  <script src="/assets/js/config.js"></script>
+  <script src="/assets/js/home-muse.js"></script>
+</body>
+</html>
