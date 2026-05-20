@@ -57,19 +57,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p class="eyebrow">CONSULTA INICIAL</p>
 <h1 id="contact-title">Cuéntame qué quieres resolver.</h1>
 <p class="lead">No necesitas tener todo resuelto. Con algunos datos puedo entender el punto de partida, contactarte para aclarar dudas y ordenar la ruta antes de que gastes tiempo o plata de más.</p>
-<ol class="contact-steps-compact">
-<li><b>Reviso tu caso</b><span>Objetivo, comuna, tipo de proyecto y antecedentes.</span></li>
-<li><b>Te contacto</b><span>Conversamos para aclarar dudas, asesorarte y entender mejor el contexto.</span></li>
-<li><b>Ordeno la ruta</b><span>Si hay encaje, te envío una propuesta con alcance, honorarios y etapas.</span></li>
+<ol class="contact-steps-compact" aria-label="Qué pasa después de enviar la consulta">
+<li><b>Reviso tu caso</b><span>Objetivo, comuna, tipo de proyecto y antecedentes.</span><i aria-hidden="true" class="step-icon step-search"></i></li>
+<li><b>Te contacto</b><span>Conversamos para aclarar dudas y asesorarte.</span><i aria-hidden="true" class="step-icon step-phone"></i></li>
+<li><b>Ordeno la ruta</b><span>Si hay encaje, te envío propuesta con alcance y próximos pasos.</span><i aria-hidden="true" class="step-icon step-doc"></i></li>
 </ol>
-<a class="text-whatsapp js-wa" data-wa="Hola Joseph, quiero enviarte antecedentes por WhatsApp para una consulta inicial.">También puedes enviar fotos, planos, CIP o link de Drive por WhatsApp →</a>
 </div>
 <form class="lead-form contact-onefold-form" data-lead-form="true" data-source="contacto" id="contactLeadForm">
 <input name="source" type="hidden" value="contacto"/>
 <div class="form-intro field-wide">
 <p class="eyebrow">FORMULARIO CENTRAL</p>
 <h2>Enviar consulta inicial</h2>
-<p>Completa lo esencial. Yo recibo el aviso por email y el caso queda guardado en el Sheet de leads.</p>
+<p>Cuéntame lo necesario para entender el punto de partida. Te responderé con el siguiente paso más lógico para tu caso.</p>
 </div>
 <label>Nombre<input autocomplete="name" name="nombre" placeholder="Tu nombre" required=""/></label>
 <label>Email<input autocomplete="email" name="email" placeholder="tu@email.com" required="" type="email"/></label>
@@ -89,8 +88,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <label class="field-wide optional-link">Link a documentos, fotos o Drive<input name="link" placeholder="Opcional"/></label>
 <p class="muse-form-error field-wide" hidden="">No se pudo enviar. Puedes intentarlo de nuevo o escribir por WhatsApp.</p>
 <div class="form-footer field-wide">
-<p>Al enviar, te llevará a una página de confirmación.</p>
 <button class="btn btn-primary" type="submit">Enviar consulta inicial</button>
+<p class="privacy-note">Tu información está segura y no será compartida.</p>
 </div>
 </form>
 </div>
