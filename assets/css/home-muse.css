@@ -298,3 +298,289 @@ svg{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.7;stroke-l
   .muse-process-actions .muse-btn-dark{width:100%}
   .muse-process-whatsapp{text-align:center;border-bottom:0;padding:6px 0 0}
 }
+
+/* === V6.3 proceso definitivo: timeline editorial premium, sin flechas sueltas === */
+.muse-process{
+  background-color:#F7F4EF;
+  background-image:
+    linear-gradient(rgba(17,17,17,.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17,17,17,.022) 1px, transparent 1px);
+  background-size:56px 56px;
+  padding:clamp(96px,8vw,128px) clamp(22px,5vw,80px);
+  border-top:1px solid rgba(17,17,17,.055);
+  border-bottom:1px solid rgba(17,17,17,.055);
+}
+.muse-process::before{display:none!important}
+.muse-process-head{
+  display:block!important;
+  max-width:820px!important;
+  margin:0 auto 72px!important;
+  text-align:center!important;
+}
+.muse-process-head .muse-eyebrow{
+  margin:0 0 24px!important;
+  text-align:center!important;
+}
+.muse-process h2{
+  max-width:820px!important;
+  margin:0 auto!important;
+  text-align:center!important;
+  font-size:clamp(44px,4.35vw,70px)!important;
+  line-height:1.02!important;
+  letter-spacing:-.032em!important;
+  text-wrap:balance;
+}
+.muse-process-lead{
+  max-width:760px!important;
+  margin:26px auto 0!important;
+  text-align:center!important;
+  color:rgba(17,17,17,.68)!important;
+  font-size:clamp(17px,1.28vw,20px)!important;
+  line-height:1.62!important;
+}
+.muse-steps{
+  position:relative!important;
+  display:grid!important;
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:24px!important;
+  max-width:1240px!important;
+  margin:0 auto!important;
+  border:0!important;
+  align-items:stretch!important;
+}
+.muse-steps::before{
+  content:"";
+  position:absolute;
+  z-index:0;
+  top:66px;
+  left:calc(12.5% - 32px);
+  right:calc(12.5% - 32px);
+  height:1px;
+  background:linear-gradient(90deg,rgba(161,124,72,.1),rgba(161,124,72,.58),rgba(161,124,72,.1));
+  pointer-events:none;
+}
+.muse-steps article{
+  position:relative!important;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  border-radius:28px!important;
+  border:1px solid rgba(17,17,17,.09)!important;
+  background:rgba(255,255,255,.66)!important;
+  backdrop-filter:blur(10px);
+  min-height:258px!important;
+  padding:34px 28px 30px!important;
+  box-shadow:0 22px 60px rgba(17,17,17,.045)!important;
+  transition:transform .45s var(--ease), box-shadow .45s var(--ease), border-color .45s var(--ease), background .45s var(--ease)!important;
+}
+.muse-steps article:hover{
+  transform:translateY(-4px)!important;
+  background:rgba(255,255,255,.88)!important;
+  border-color:rgba(161,124,72,.35)!important;
+  box-shadow:0 28px 80px rgba(17,17,17,.075)!important;
+}
+.muse-steps article::before,
+.muse-steps article::after,
+.muse-steps article:not(:last-child)::after,
+.muse-steps article:not(:last-child) h3::after,
+.muse-steps .step-arrow{
+  display:none!important;
+  content:none!important;
+}
+.muse-steps .step-number,
+.muse-steps article>span.step-number{
+  position:relative!important;
+  z-index:2;
+  top:auto!important;
+  left:auto!important;
+  transform:none!important;
+  width:64px!important;
+  height:64px!important;
+  min-width:64px!important;
+  min-height:64px!important;
+  border-radius:50%;
+  border:1px solid rgba(161,124,72,.55);
+  background:#F7F4EF;
+  display:flex!important;
+  align-items:center;
+  justify-content:center;
+  margin:0 0 42px!important;
+  font-family:var(--mono,"IBM Plex Mono",monospace)!important;
+  font-size:13px!important;
+  line-height:1!important;
+  font-style:normal!important;
+  font-weight:600!important;
+  letter-spacing:.08em;
+  color:#A17C48!important;
+}
+.muse-steps h3{
+  position:static!important;
+  font-family:var(--serif)!important;
+  font-size:clamp(24px,1.7vw,27px)!important;
+  line-height:1.08!important;
+  letter-spacing:-.025em!important;
+  color:#111111!important;
+  margin:0 0 14px!important;
+}
+.muse-steps p{
+  margin:0!important;
+  font-size:16px!important;
+  line-height:1.62!important;
+  color:rgba(17,17,17,.68)!important;
+}
+.step-meta{
+  display:block;
+  margin-top:auto;
+  padding-top:24px;
+  font-family:var(--mono,"IBM Plex Mono",monospace);
+  font-size:11px;
+  line-height:1.35;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  color:rgba(161,124,72,.92);
+}
+.muse-process-cta{
+  max-width:980px!important;
+  margin:56px auto 0!important;
+  padding:34px 38px!important;
+  border-radius:32px!important;
+  border:1px solid rgba(17,17,17,.08)!important;
+  background:#FFFFFF!important;
+  box-shadow:0 24px 70px rgba(17,17,17,.055)!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:32px!important;
+}
+.muse-process-cta strong{
+  display:block!important;
+  max-width:610px;
+  font-family:var(--serif)!important;
+  font-size:clamp(25px,2.05vw,34px)!important;
+  line-height:1.06!important;
+  letter-spacing:-.024em!important;
+  color:#111111!important;
+  margin:0 0 9px!important;
+}
+.muse-process-cta p{
+  margin:0!important;
+  color:rgba(17,17,17,.62)!important;
+  line-height:1.55!important;
+  font-size:16px!important;
+}
+.muse-process-actions{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-end!important;
+  gap:14px!important;
+  flex:0 0 auto!important;
+}
+.muse-process-actions .muse-btn-dark{
+  background:#18324A!important;
+  color:#fff!important;
+  border-radius:999px!important;
+  min-height:54px!important;
+  padding:15px 24px!important;
+  box-shadow:none!important;
+}
+.muse-process-whatsapp{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-height:52px!important;
+  padding:14px 22px!important;
+  border:1px solid rgba(17,17,17,.18)!important;
+  border-radius:999px!important;
+  background:transparent!important;
+  color:#111111!important;
+  font-weight:800!important;
+  font-size:13px!important;
+  letter-spacing:.075em!important;
+  text-transform:uppercase!important;
+  white-space:nowrap!important;
+  text-decoration:none!important;
+  transition:transform .35s var(--ease), border-color .35s var(--ease), background .35s var(--ease)!important;
+}
+.muse-process-whatsapp:hover{
+  transform:translateY(-2px)!important;
+  border-color:rgba(24,50,74,.45)!important;
+  background:rgba(24,50,74,.035)!important;
+}
+@media (max-width:980px){
+  .muse-process-head{margin-bottom:54px!important}
+  .muse-steps{grid-template-columns:1fr 1fr!important;max-width:820px!important;gap:20px!important}
+  .muse-steps::before{display:none!important}
+  .muse-process-cta{
+    max-width:820px!important;
+    align-items:flex-start!important;
+    flex-direction:column!important;
+  }
+  .muse-process-actions{width:100%!important;justify-content:flex-start!important;flex-wrap:wrap!important}
+}
+@media (max-width:640px){
+  .muse-process{
+    padding:76px 20px!important;
+    background-size:44px 44px;
+  }
+  .muse-process-head{
+    margin-bottom:38px!important;
+    text-align:left!important;
+    max-width:420px!important;
+  }
+  .muse-process-head .muse-eyebrow{text-align:left!important}
+  .muse-process h2{
+    text-align:left!important;
+    font-size:38px!important;
+    line-height:1.04!important;
+  }
+  .muse-process-lead{
+    text-align:left!important;
+    margin-top:18px!important;
+    font-size:17px!important;
+    line-height:1.58!important;
+  }
+  .muse-steps{
+    grid-template-columns:1fr!important;
+    max-width:420px!important;
+    gap:16px!important;
+  }
+  .muse-steps::before{
+    display:block!important;
+    top:32px;
+    bottom:32px;
+    left:32px;
+    right:auto;
+    width:1px;
+    height:auto;
+    background:linear-gradient(180deg,rgba(161,124,72,.08),rgba(161,124,72,.52),rgba(161,124,72,.08));
+  }
+  .muse-steps article{
+    min-height:0!important;
+    padding:28px 24px 28px 92px!important;
+    border-radius:22px!important;
+  }
+  .muse-steps .step-number,
+  .muse-steps article>span.step-number{
+    position:absolute!important;
+    left:22px!important;
+    top:28px!important;
+    width:52px!important;
+    height:52px!important;
+    min-width:52px!important;
+    min-height:52px!important;
+    margin:0!important;
+    font-size:12px!important;
+  }
+  .muse-steps h3{font-size:25px!important;margin-bottom:10px!important}
+  .muse-steps p{font-size:15.5px!important;line-height:1.55!important}
+  .step-meta{padding-top:18px;font-size:10.5px}
+  .muse-process-cta{
+    margin-top:28px!important;
+    padding:28px 24px!important;
+    border-radius:24px!important;
+  }
+  .muse-process-cta strong{font-size:27px!important}
+  .muse-process-actions{display:grid!important;grid-template-columns:1fr!important;gap:12px!important}
+  .muse-process-actions .muse-btn-dark,
+  .muse-process-whatsapp{width:100%!important;justify-content:center!important}
+}
