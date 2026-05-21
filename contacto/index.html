@@ -58,9 +58,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h1 id="contact-title">Cuéntame qué quieres resolver.</h1>
 <p class="lead">No necesitas tener todo resuelto. Con algunos datos puedo entender el punto de partida, contactarte para aclarar dudas y ordenar la ruta antes de que gastes tiempo o plata de más.</p>
 <ol class="contact-steps-compact" aria-label="Qué pasa después de enviar la consulta">
-<li><b>Reviso tu caso</b><span>Objetivo, comuna, tipo de proyecto y antecedentes.</span><i aria-hidden="true" class="step-icon step-search"></i></li>
-<li><b>Te contacto</b><span>Conversamos para aclarar dudas y asesorarte.</span><i aria-hidden="true" class="step-icon step-phone"></i></li>
-<li><b>Ordeno la ruta</b><span>Si hay encaje, te envío propuesta con alcance y próximos pasos.</span><i aria-hidden="true" class="step-icon step-doc"></i></li>
+<li>
+<div class="step-index">01</div>
+<div class="step-copy"><b>Reviso tu caso</b><span>Objetivo, comuna, tipo de proyecto y antecedentes.</span></div>
+<i aria-hidden="true" class="step-icon step-search"></i>
+</li>
+<li>
+<div class="step-index">02</div>
+<div class="step-copy"><b>Te contacto</b><span>Conversamos para aclarar dudas y asesorarte.</span></div>
+<i aria-hidden="true" class="step-icon step-phone"></i>
+</li>
+<li>
+<div class="step-index">03</div>
+<div class="step-copy"><b>Ordeno la ruta</b><span>Si hay encaje, te envío propuesta con alcance y próximos pasos.</span></div>
+<i aria-hidden="true" class="step-icon step-doc"></i>
+</li>
 </ol>
 </div>
 <form class="lead-form contact-onefold-form" data-lead-form="true" data-source="contacto" id="contactLeadForm">
@@ -68,15 +80,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="form-intro field-wide">
 <p class="eyebrow">FORMULARIO CENTRAL</p>
 <h2>Enviar consulta inicial</h2>
-<p>Cuéntame lo necesario para entender el punto de partida. Te responderé con el siguiente paso más lógico para tu caso.</p>
+<p>Completa lo esencial para entender tu punto de partida. Te responderé personalmente con el siguiente paso más lógico para avanzar con claridad.</p>
 </div>
 <label>Nombre<input autocomplete="name" name="nombre" placeholder="Tu nombre" required=""/></label>
 <label>Email<input autocomplete="email" name="email" placeholder="tu@email.com" required="" type="email"/></label>
 <label>Teléfono<input autocomplete="tel" name="telefono" placeholder="+56 9 1234 5678" required=""/></label>
 <label>Comuna<input name="comuna" placeholder="Las Condes, Lo Barnechea..."/></label>
 <label class="field-wide">Tipo de proyecto<select name="tipo" required="">
-<option value="">Selecciona una opción</option>
-<option>Quiero construir mi casa</option>
+<option selected="" >Quiero construir mi casa</option>
 <option>Quiero remodelar</option>
 <option>Necesito regularizar</option>
 <option>Necesito permiso o recepción final</option>
@@ -84,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <option>Quiero evaluar antes de comprar/invertir</option>
 <option>No sé todavía</option>
 </select></label>
-<label class="field-wide">Mensaje<textarea name="mensaje" placeholder="Ej: quiero regularizar una ampliación en Las Condes; tengo planos antiguos y fotos..." required=""></textarea></label>
+<label class="field-wide">Mensaje<textarea name="mensaje" placeholder="Cuéntame brevemente qué necesitas resolver..." required=""></textarea></label>
 <label class="field-wide optional-link">Link a documentos, fotos o Drive<input name="link" placeholder="Opcional"/></label>
 <p class="muse-form-error field-wide" hidden="">No se pudo enviar. Puedes intentarlo de nuevo o escribir por WhatsApp.</p>
 <div class="form-footer field-wide">

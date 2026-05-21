@@ -329,3 +329,44 @@ h1,h2,h3,.brand{font-family:var(--title);font-weight:600;letter-spacing:-.045em;
   .contact-onefold-form{grid-template-columns:1fr;border-radius:26px;padding:24px;gap:15px;}
   .contact-onefold-form .form-intro h2{font-size:clamp(2.45rem,12vw,3.2rem);}
 }
+
+
+/* CONTACT PAGE V7.3 exact mockup refinement */
+.contact-onefold{padding:126px 0 64px!important;align-items:flex-start!important;}
+.contact-onefold-grid{grid-template-columns:minmax(420px,.94fr) minmax(520px,1fr)!important;gap:56px!important;align-items:start!important;}
+.contact-onefold-copy{padding-top:14px!important;}
+.contact-onefold-copy h1{max-width:620px!important;margin-bottom:26px!important;}
+.contact-onefold-copy .lead{max-width:610px!important;line-height:1.62!important;}
+.contact-steps-compact{margin:38px 0 0!important;gap:14px!important;max-width:610px!important;}
+.contact-steps-compact:before{left:49px!important;top:52px!important;bottom:52px!important;background:linear-gradient(180deg,rgba(161,124,72,.12),rgba(161,124,72,.40),rgba(161,124,72,.12))!important;}
+.contact-steps-compact li{grid-template-columns:82px 1fr 60px!important;gap:18px!important;min-height:104px!important;padding:18px 22px!important;border-radius:18px!important;background:rgba(255,255,255,.64)!important;border:1px solid rgba(17,17,17,.08)!important;box-shadow:none!important;backdrop-filter:none!important;}
+.contact-steps-compact li:before{content:none!important;}
+.contact-steps-compact .step-index{width:52px;height:52px;border-radius:999px;border:1px solid rgba(161,124,72,.58);display:grid;place-items:center;color:#A17C48;font:700 12px var(--mono);letter-spacing:.08em;background:#F7F4EF;justify-self:center;align-self:center;}
+.contact-steps-compact .step-copy{align-self:center;max-width:320px;}
+.contact-steps-compact b{font-size:18px!important;line-height:1.05!important;margin:0 0 6px!important;}
+.contact-steps-compact span{font-size:14px!important;line-height:1.42!important;max-width:320px!important;}
+.contact-steps-compact .step-icon{width:50px!important;height:50px!important;background:#F5F1EB!important;border:1px solid rgba(17,17,17,.04)!important;box-shadow:none!important;justify-self:end;}
+.contact-onefold-form{border-radius:34px!important;background:#fff!important;box-shadow:0 28px 80px rgba(17,17,17,.06)!important;padding:34px 36px 26px!important;gap:16px!important;backdrop-filter:none!important;align-self:start!important;}
+.contact-onefold-form .form-intro h2{font-size:clamp(2.8rem,4.2vw,4rem)!important;margin:0 0 10px!important;}
+.contact-onefold-form .form-intro p{max-width:520px!important;font-size:1rem!important;line-height:1.52!important;color:rgba(17,17,17,.60)!important;}
+.contact-onefold-form input,.contact-onefold-form select,.contact-onefold-form textarea{background:#FBF9F5!important;border:1px solid rgba(17,17,17,.14)!important;border-radius:14px!important;min-height:52px!important;padding:14px 16px!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.65)!important;}
+.contact-onefold-form textarea{min-height:86px!important;}
+.contact-onefold-form .form-footer{gap:12px!important;}
+.contact-onefold-form .form-footer .btn{min-height:56px!important;border-radius:12px!important;background:linear-gradient(90deg,#161616 0%,#111 48%,#161616 100%)!important;box-shadow:none!important;}
+.contact-onefold-form .privacy-note{font-size:14px!important;color:rgba(17,17,17,.50)!important;}
+.contact-onefold-form .privacy-note:before{content:"🔒"!important;opacity:.55!important;}
+@media(max-width:1180px){
+  .contact-onefold{padding:110px 0 56px!important;}
+  .contact-onefold-grid{grid-template-columns:1fr!important;gap:34px!important;}
+  .contact-onefold-copy{padding-top:0!important;}
+  .contact-onefold-copy h1{max-width:820px!important;}
+  .contact-steps-compact{max-width:760px!important;}
+  .contact-onefold-form{max-width:820px!important;width:100%!important;}
+}
+@media(max-width:700px){
+  .contact-onefold{padding:98px 0 48px!important;}
+  .contact-steps-compact li{grid-template-columns:58px 1fr!important;padding:16px!important;min-height:0!important;}
+  .contact-steps-compact .step-icon{display:none!important;}
+  .contact-steps-compact:before{left:29px!important;}
+  .contact-onefold-form{padding:24px!important;border-radius:26px!important;}
+}
