@@ -1,0 +1,182 @@
+/* ==========================================================
+   JOSEPH.CL — V10.2 / EDITORIAL CORRECTION
+   Preserve the handmade language, restore reading hierarchy.
+   One visual protagonist at a time. No copy may compete with photography.
+   ========================================================== */
+
+/* Global restraint: slightly smaller display scale, calmer reading rhythm */
+h1{font-size:clamp(4.5rem,6.6vw,7.5rem);line-height:.84;letter-spacing:-.05em}
+h2{font-size:clamp(3rem,4.8vw,5.55rem);line-height:.93}
+h3{line-height:.96}
+p{line-height:1.6}
+
+/* Small editorial labels must always live inside their reading field */
+.criteria-copy .eyebrow,
+.contact-form-wrap .eyebrow{margin-left:0!important;position:relative;left:0;padding-left:18px;white-space:nowrap;overflow:visible}
+.criteria-copy .eyebrow:before,
+.contact-form-wrap .eyebrow:before{content:'';position:absolute;left:0;top:50%;width:9px;height:1px;background:var(--brick);transform:translateY(-50%)}
+
+/* ==========================================================
+   HERO — REBUILT AS AN EDITORIAL SPREAD
+   No title/photo/copy collision. Still asymmetric, but readable.
+   ========================================================== */
+.hero{min-height:820px;padding-top:82px;border-bottom:1px solid var(--line-soft);overflow:hidden}
+.hero:before{right:3vw;top:112px;font-size:clamp(5.5rem,10vw,10rem);opacity:.72}
+.hero:after{left:4vw;top:134px;height:62px;width:1px;background:var(--brick-soft)}
+.hero-layout{display:grid;grid-template-columns:minmax(0,45%) minmax(0,55%);min-height:738px;align-items:stretch}
+.hero-copy{position:relative;width:auto;min-width:0;padding:82px 4.5vw 60px max(6.8vw,calc((100vw - var(--max))/2 + 22px));display:flex;flex-direction:column;justify-content:flex-start;z-index:3}
+.hero-copy .eyebrow{margin:0 0 24px 0}
+.hero-copy h1{max-width:650px;font-size:clamp(4.4rem,6.1vw,7.1rem);line-height:.82;letter-spacing:-.055em}
+.hero-copy h1:after{width:90px;height:1px;margin:25px 0 0 0;transform:none;background:var(--brick)}
+.hero-lede{position:static;width:min(500px,94%);margin:34px 0 0 0;padding:0 0 0 22px;background:transparent;border-left:1px solid var(--brick-soft);box-shadow:none;font-size:1.04rem;line-height:1.58;color:var(--ink-2)}
+.hero-actions{position:static;margin:27px 0 0 22px;padding:0;background:transparent;display:flex;align-items:center;gap:26px}
+.hero-context{position:static;margin:28px 0 0 22px;writing-mode:initial;transform:none;font-family:var(--sans);font-size:.6rem;letter-spacing:.11em;color:var(--muted)}
+.hero-trust{position:static;margin:auto 0 0 22px;padding:34px 0 0;display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);background:transparent;font-size:.59rem;letter-spacing:.08em}
+.hero-trust span{color:inherit}
+.hero-media{position:relative;top:auto;right:auto;width:auto;height:auto;min-height:620px;margin:54px 0 42px;align-self:stretch;clip-path:polygon(7% 0,100% 0,100% 100%,0 100%,0 10%);overflow:hidden}
+.hero-media:before{background:linear-gradient(0deg,rgba(18,17,15,.18),transparent 29%)}
+.hero-media:after{top:10%;width:7%;height:2px}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 49%}
+.hero-media-caption{left:auto;right:14px;bottom:14px;padding:6px 8px;font-size:.54rem}
+
+/* The summary notes now act as the quiet bridge into content */
+.metrics-ledger{margin-top:20px;width:min(calc(100% - 14vw),1280px);transform:none;border-top:1px solid var(--line)}
+.metric{min-height:82px;padding:18px 0}
+.metric span{max-width:260px}
+
+/* ==========================================================
+   PARA QUIÉN — CLEAR TWO-PAGE COMPOSITION
+   Hand-set offsets remain, but no text sits on top of the image.
+   ========================================================== */
+#para-quien{padding-top:145px;padding-bottom:170px}
+#para-quien .section-intro{width:66%;margin-left:3%;margin-bottom:80px}
+#para-quien .section-intro h2{font-size:clamp(3.35rem,5vw,5.7rem);line-height:.94;max-width:850px}
+.intent-layout{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(370px,.82fr);gap:6.5vw;min-height:0;align-items:start}
+.intent-list{position:relative;width:auto;z-index:3;border-top:1px solid var(--line)}
+.intent-item,
+.intent-item:nth-child(1),
+.intent-item:nth-child(2),
+.intent-item:nth-child(3),
+.intent-item:nth-child(4){position:relative;width:100%;margin:0!important;padding:28px 0 31px;display:grid;grid-template-columns:minmax(240px,.9fr) minmax(210px,.62fr);gap:34px;align-items:start;border:0;border-bottom:1px solid var(--line-soft);transform:none!important}
+.intent-item:nth-child(2),.intent-item:nth-child(4){width:94%;margin-left:6%!important}
+.intent-item:after{display:none}
+.intent-item:before{content:'';position:absolute;left:0;top:-1px;width:0;height:2px;background:var(--brick);transition:width .3s ease}
+.intent-item:hover:before,.intent-item.is-active:before{width:56px}
+.intent-item:hover,.intent-item.is-active{color:var(--ink)}
+.intent-item h3,
+.intent-item:nth-child(2) h3,
+.intent-item:nth-child(4) h3{margin:0;font-size:clamp(2.65rem,3.9vw,4.65rem);line-height:.88;letter-spacing:-.04em;text-transform:none}
+.intent-item p{max-width:330px;margin:4px 0 15px;font-size:.96rem;line-height:1.52;color:var(--ink-2)}
+.intent-item .text-link{font-size:.75rem}
+.intent-visual{position:sticky;top:82px;right:auto;width:auto;height:690px;margin:0;overflow:visible;background:transparent;clip-path:none}
+.intent-visual:before{inset:0;transform:translate(14px,16px);background:#e7ddd8}
+.intent-visual:after{left:-34px;top:20%;width:48px;height:1px;background:var(--brick)}
+.intent-visual img{width:100%;height:100%;margin:0;object-fit:cover;filter:saturate(.8) contrast(1.04)}
+
+/* ==========================================================
+   PROCESS — same handmade sequence, less cognitive load.
+   ========================================================== */
+.process-sticky{width:66%;margin-left:7%;margin-bottom:76px}
+.process-sticky h2{font-size:clamp(3.55rem,5.4vw,6rem);line-height:.92}
+.process-sticky>p:last-child{width:min(540px,72%);margin-left:21%;font-size:.97rem;line-height:1.58}
+.process-list{min-height:760px}
+.process-row{grid-template-columns:92px minmax(210px,.72fr) minmax(250px,.62fr);padding:20px 22px 24px}
+.process-row:nth-child(1){width:73%}
+.process-row:nth-child(2){width:70%;margin-top:48px;margin-left:22%}
+.process-row:nth-child(3){width:78%;margin-top:62px;margin-left:8%}
+.process-row:nth-child(4){width:64%;margin-top:50px;margin-left:30%}
+.process-number{font-size:clamp(3.3rem,5vw,5.8rem)}
+.process-row h3{font-size:clamp(2.2rem,3.25vw,3.8rem);line-height:.93}
+.process-row p{font-size:.94rem;line-height:1.54}
+
+/* ==========================================================
+   CRITERIO — preserve the composition the user liked.
+   Only repair the clipped label and slightly refine proportions.
+   ========================================================== */
+.criteria-layout{min-height:850px}
+.criteria-copy{left:43%;top:16%;width:min(615px,44vw);padding:48px 52px 46px;overflow:visible}
+.criteria-copy .eyebrow{margin-bottom:24px!important}
+.criteria-copy h2{font-size:clamp(3rem,4.45vw,5rem);line-height:.92}
+.criteria-copy>p:not(.eyebrow){margin-left:7%;max-width:490px}
+.criteria-index{margin-left:7%;width:93%}
+
+/* Projects: keep each composition different, but shrink captions so photos lead */
+.projects-head h2{font-size:clamp(3.45rem,5.2vw,5.9rem)}
+.project-copy h3,.project-card[data-category="oficinas"] .project-copy h3{font-size:clamp(2.35rem,3.7vw,4.4rem);line-height:.93}
+.project-copy p:last-child{max-width:510px;font-size:.92rem;line-height:1.54}
+
+/* Routes / FAQ / form: improve scannability, keep editorial attitude */
+.routes-section .section-intro{width:68%;margin-left:7%;margin-bottom:72px}
+.routes-section .section-intro h2{font-size:clamp(3.2rem,4.8vw,5.45rem)}
+.route-row{grid-template-columns:54px minmax(240px,.68fr) minmax(300px,.72fr) 34px;gap:26px;padding:25px 0 27px}
+.route-row h3{font-size:clamp(2rem,3vw,3.45rem)}
+.route-row p{font-size:.92rem;line-height:1.55}
+
+.contact-form-wrap .eyebrow{margin-bottom:22px!important}
+.contact-form-wrap h2{font-size:clamp(3.7rem,5.7vw,6.35rem);line-height:.88}
+.contact-form-wrap>p:not(.eyebrow){width:min(500px,86%);margin-left:7%;font-size:.97rem}
+
+.faq-title h2{font-size:clamp(3.1rem,4.65vw,5.2rem)}
+.faq-question{font-size:clamp(1.35rem,1.8vw,2rem);line-height:1.12}
+
+.final-layout h2{font-size:clamp(3.4rem,5vw,5.7rem)}
+.footer-brand h3{font-size:clamp(2.8rem,4.1vw,4.75rem)}
+
+/* ==========================================================
+   TABLET
+   ========================================================== */
+@media(max-width:1180px) and (min-width:821px){
+  .hero-layout{grid-template-columns:47% 53%}
+  .hero-copy{padding-left:5vw;padding-right:3.5vw}
+  .hero-copy h1{font-size:clamp(4rem,6.2vw,6rem)}
+  .hero-media{min-height:560px}
+  .intent-layout{grid-template-columns:minmax(0,1fr) 42%;gap:4.5vw}
+  .intent-item,.intent-item:nth-child(n){grid-template-columns:1fr;padding:23px 0 25px}
+  .intent-item p{max-width:80%}
+  .intent-visual{height:620px}
+  .criteria-copy{left:40%;width:55vw}
+}
+
+/* ==========================================================
+   MOBILE — sequential reading; no overlay theatre.
+   ========================================================== */
+@media(max-width:820px){
+  h1{font-size:clamp(3.55rem,14vw,5.2rem);line-height:.86}
+  h2{font-size:clamp(2.75rem,10.5vw,4.2rem);line-height:.96}
+
+  .hero{min-height:auto;padding-top:74px}
+  .hero-layout{display:flex;flex-direction:column;min-height:0}
+  .hero-copy{order:1;padding:62px 17px 42px}
+  .hero-copy .eyebrow{margin:0 0 20px 18px}
+  .hero-copy h1{font-size:clamp(3.6rem,14.8vw,5.4rem);max-width:100%}
+  .hero-lede{position:static;width:91%;margin:29px 0 0 8%;padding:0 0 0 16px;font-size:.98rem;box-shadow:none}
+  .hero-actions{position:static;margin:23px 0 0 8%;padding:0;gap:20px}
+  .hero-context{margin:24px 0 0 8%;font-size:.56rem}
+  .hero-trust{position:static;margin:28px 0 0 8%;padding:0;color:var(--muted);background:none}
+  .hero-media{order:2;position:relative;top:auto;bottom:auto;right:auto;width:calc(100% - 17px);height:420px;min-height:0;margin:0 0 32px 17px;clip-path:polygon(10% 0,100% 0,100% 100%,0 100%,0 13%)}
+  .hero:before{top:96px;right:-1vw;font-size:6.5rem}
+  .hero:after{left:17px;top:111px;height:42px}
+
+  .metrics-ledger{margin-top:0}
+
+  #para-quien{padding:90px 0 110px}
+  #para-quien .section-intro{width:100%;margin:0 0 48px}
+  #para-quien .section-intro h2{font-size:clamp(2.9rem,11vw,4.25rem)}
+  .intent-layout{display:flex;flex-direction:column;gap:42px}
+  .intent-visual{order:1;position:relative;top:auto;right:auto;width:91%;height:300px;margin:0 0 8px auto}
+  .intent-list{order:2;width:100%}
+  .intent-item,.intent-item:nth-child(n){width:100%;margin:0!important;padding:20px 0 23px;display:block;border-bottom:1px solid var(--line-soft)}
+  .intent-item h3,.intent-item:nth-child(n) h3{font-size:clamp(2.35rem,9.8vw,3.65rem);line-height:.93;margin-bottom:12px}
+  .intent-item p,.intent-item .text-link{margin-left:7%;max-width:88%}
+
+  .process-sticky{width:100%;margin:0 0 58px}
+  .process-sticky h2{font-size:clamp(2.9rem,11vw,4.25rem)}
+  .process-row,.process-row:nth-child(n){width:100%;margin:0 0 42px!important;grid-template-columns:52px 1fr;padding:17px 8px 21px}
+  .process-number{font-size:2.8rem}
+  .process-row h3{font-size:clamp(2rem,8.5vw,3.1rem)}
+
+  .criteria-copy .eyebrow,.contact-form-wrap .eyebrow{padding-left:15px}
+  .criteria-copy h2{font-size:clamp(2.7rem,10.5vw,4rem)}
+
+  .projects-head h2,.routes-section .section-intro h2,.contact-form-wrap h2,.faq-title h2,.final-layout h2{font-size:clamp(2.8rem,10.8vw,4.2rem)}
+}
